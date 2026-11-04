@@ -1,0 +1,86 @@
+[
+ {
+  "Name": "Sales Tax on Imports",
+  "TaxType": "GSTONIMPORTS",
+  "ReportTaxType": "GSTONIMPORTS",
+  "CanApplyToAssets": false,
+  "CanApplyToEquity": false,
+  "CanApplyToExpenses": false,
+  "CanApplyToLiabilities": true,
+  "CanApplyToRevenue": false,
+  "DisplayTaxRate": 0.0,
+  "EffectiveRate": 0.0,
+  "Status": "ACTIVE",
+  "TaxComponents": [
+   {
+    "Name": "TAX",
+    "Rate": 0.0,
+    "IsCompound": false,
+    "IsNonRecoverable": false
+   }
+  ]
+ },
+ {
+  "Name": "Tax Exempt",
+  "TaxType": "NONE",
+  "ReportTaxType": "NONE",
+  "CanApplyToAssets": true,
+  "CanApplyToEquity": true,
+  "CanApplyToExpenses": true,
+  "CanApplyToLiabilities": true,
+  "CanApplyToRevenue": true,
+  "DisplayTaxRate": 0.0,
+  "EffectiveRate": 0.0,
+  "Status": "ACTIVE",
+  "TaxComponents": [
+   {
+    "Name": "No Tax",
+    "Rate": 0.0,
+    "IsCompound": false,
+    "IsNonRecoverable": false
+   }
+  ]
+ },
+ {
+  "Name": "Tax on Purchases",
+  "TaxType": "INPUT",
+  "ReportTaxType": "INPUT",
+  "CanApplyToAssets": true,
+  "CanApplyToEquity": true,
+  "CanApplyToExpenses": true,
+  "CanApplyToLiabilities": true,
+  "CanApplyToRevenue": true,
+  "DisplayTaxRate": 0.0,
+  "EffectiveRate": 0.0,
+  "Status": "ACTIVE",
+  "TaxComponents": [
+   {
+    "Name": "Purchases Tax",
+    "Rate": 0.0,
+    "IsCompound": false,
+    "IsNonRecoverable": false
+   }
+  ]
+ },
+ {
+  "Name": "Tax on Sales",
+  "TaxType": "OUTPUT",
+  "ReportTaxType": "OUTPUT",
+  "CanApplyToAssets": true,
+  "CanApplyToEquity": true,
+  "CanApplyToExpenses": true,
+  "CanApplyToLiabilities": true,
+  "CanApplyToRevenue": true,
+  "DisplayTaxRate": 0.0,
+  "EffectiveRate": 0.0,
+  "Status": "ACTIVE",
+  "TaxComponents": [
+   {
+    "Name": "Sales Tax",
+    "Rate": 0.0,
+    "IsCompound": false,
+    "IsNonRecoverable": false
+   }
+  ]
+ }
+]

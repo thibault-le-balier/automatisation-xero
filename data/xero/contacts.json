@@ -1,0 +1,8978 @@
+[
+ {
+  "ContactID": "7d04e8c2-67a1-4623-88f7-4481b658e4f6",
+  "ContactStatus": "ACTIVE",
+  "Name": "Linkedin",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760430382350+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f9679be9-7f73-494e-a84e-1ed64a788603",
+  "ContactStatus": "ACTIVE",
+  "Name": "OPEN AI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760430550417+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "bd8c8b90-3540-4c90-8d1b-05a89e4a359c",
+  "ContactStatus": "ACTIVE",
+  "Name": "WISE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760430596017+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c199733c-d09f-4981-b9be-14382fa3e6ff",
+  "ContactStatus": "ACTIVE",
+  "Name": "CURSOR",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760431538710+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "46878613-73f9-4b29-9b1e-6d44f48a6128",
+  "ContactStatus": "ACTIVE",
+  "Name": "KIDY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760431784407+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "36359b27-7c07-419a-b094-41d6ddfac4bc",
+  "ContactStatus": "ACTIVE",
+  "Name": "JANE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432081947+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ca34a7ed-4229-44ce-9bbd-6441b9ebd6a0",
+  "ContactStatus": "ACTIVE",
+  "Name": "FUSION PARTNERS",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432184377+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "646769fe-370a-48ab-8230-f655e6a2872d",
+  "ContactStatus": "ACTIVE",
+  "Name": "PONCHO",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432301930+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c2659211-ffa5-46e6-ba8c-720cf417136c",
+  "ContactStatus": "ACTIVE",
+  "Name": "FREELANCES",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432346047+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f965abe0-1d10-4d63-a1e6-cc6e8470b61c",
+  "ContactStatus": "ACTIVE",
+  "Name": "THIBAULT LE BALIER",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432576290+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ba87a07c-4fbc-4e70-ad19-5b1a65600597",
+  "ContactStatus": "ACTIVE",
+  "Name": "ELDY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432625533+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "3c63054d-00df-4f39-aadd-ea9ef4c5b811",
+  "ContactStatus": "ACTIVE",
+  "Name": "META ADVERTISING",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760432694943+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "d24544f8-4286-4557-9eb8-b58de222e85b",
+  "ContactStatus": "ARCHIVED",
+  "Name": "Facebook",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [],
+  "Phones": [],
+  "UpdatedDateUTC": "/Date(1760433200747+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "34ec44ea-a4f8-495b-9e6a-b55afad6b216",
+  "ContactStatus": "ACTIVE",
+  "Name": "Facebook",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760433319407+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "1199b3bf-c0f9-4803-90b1-414ca54f1407",
+  "ContactStatus": "ACTIVE",
+  "Name": "GOOGLE ADVERTISING",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760433551987+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9ca5e1cb-e53a-414e-8b2c-e71f40735cfb",
+  "ContactStatus": "ACTIVE",
+  "Name": "GOOGLE WORKSPACE",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760433655960+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "202238e5-c791-4e4c-9b49-ad802f109027",
+  "ContactStatus": "ACTIVE",
+  "Name": "TALLY",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760433720913+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8416837e-4472-4090-9d43-f220d025500d",
+  "ContactStatus": "ACTIVE",
+  "Name": "Bubble",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760433941533+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "09c2e163-8506-4d4b-81cf-d1c2933f7d14",
+  "ContactStatus": "ACTIVE",
+  "Name": "Finotor",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760434040827+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c887d156-68af-429e-baa3-1b56056f6c34",
+  "ContactStatus": "ACTIVE",
+  "Name": "NOTION",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760435348527+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "84287ab1-10cb-4c1a-9100-faa3a6458141",
+  "ContactStatus": "ACTIVE",
+  "Name": "TOTAL ENERGIES",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760435623597+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "b0753363-7e6d-4f5c-9be0-ff804a66fcdf",
+  "ContactStatus": "ACTIVE",
+  "Name": "SNCF",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436232137+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "001296fc-65eb-4b93-a7dd-a47fe14b0ecf",
+  "ContactStatus": "ACTIVE",
+  "Name": "SOFTWARE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436507953+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "121e6b72-4a22-417f-b0b2-5e2d5dbd5947",
+  "ContactStatus": "ACTIVE",
+  "Name": "ELALAMY & CO",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436527480+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0184da46-e48e-4b33-b976-0258c88b9272",
+  "ContactStatus": "ACTIVE",
+  "Name": "MICROSOFT",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436538257+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "54dd41ff-f256-4bea-8080-58600004f7ca",
+  "ContactStatus": "ACTIVE",
+  "Name": "O2SWITCH",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436561310+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9481835d-3385-46d7-bf1e-6f3ad807c415",
+  "ContactStatus": "ACTIVE",
+  "Name": "TIKTOK ADS",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436591747+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "da0525af-478e-4ab5-8e82-b5e2685d29f0",
+  "ContactStatus": "ACTIVE",
+  "Name": "1PASSWORD",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760436773133+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "3fcd64f7-ff26-4ecf-a3e6-38ca605abd54",
+  "ContactStatus": "ACTIVE",
+  "Name": "LE STUD",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437038050+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9462b1ed-4777-4bf6-af0c-f8f4a5ae8b60",
+  "ContactStatus": "ACTIVE",
+  "Name": "UNIVERSITE DE LAUSANNE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437239310+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0ea0f4bf-1fa8-44bd-afbc-676548bf363b",
+  "ContactStatus": "ACTIVE",
+  "Name": "RAPID API",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437260373+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "01e8a6ad-310d-4dd2-b9c4-c8e54cc74ba4",
+  "ContactStatus": "ACTIVE",
+  "Name": "SUPABASE",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437402057+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9e4464d2-0749-4520-a47d-5580efdd9464",
+  "ContactStatus": "ACTIVE",
+  "Name": "VILLAS FWI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437512360+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "5bd92a65-88ac-4f36-be47-ab9d4f2f9317",
+  "ContactStatus": "ACTIVE",
+  "Name": "HUSHER",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437559583+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "fa4401a9-4b8b-4ea1-848d-dbc9be58526d",
+  "ContactStatus": "ACTIVE",
+  "Name": "HOTEL",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760437733947+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "cb27e9f2-220a-40f2-af5c-646bfc7c1a08",
+  "ContactStatus": "ACTIVE",
+  "Name": "AUTOROUTE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760438554837+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c16d98b4-60e0-4573-80bb-207d56c2a7ad",
+  "ContactStatus": "ACTIVE",
+  "Name": "PERPLEXITY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760438674137+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0f03d3ad-3ce9-40e7-91e3-1327fbc52cf2",
+  "ContactStatus": "ACTIVE",
+  "Name": "VERCEL",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760438723020+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "bf09dc2e-cf15-4032-891b-ee317b9ea6cc",
+  "ContactStatus": "ACTIVE",
+  "Name": "WEBFLOW",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760438948700+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "487c8826-2086-4d73-a065-ed017c5872d1",
+  "ContactStatus": "ACTIVE",
+  "Name": "SWYPE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760439072173+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f314bbf7-faa0-4ec8-9bd7-56cac31191a4",
+  "ContactStatus": "ACTIVE",
+  "Name": "FIGMA",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760439176800+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "299cd7cb-8ecd-4e30-b8c8-73338ffe077d",
+  "ContactStatus": "ACTIVE",
+  "Name": "SHOPIFY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760439177540+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c636d09c-b24a-4db7-b73b-267ace1f7e86",
+  "ContactStatus": "ACTIVE",
+  "Name": "UBER",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760449133407+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ef16bf14-ca7c-48cb-861b-b2e76dc4d11a",
+  "ContactStatus": "ACTIVE",
+  "Name": "LOVABLE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760449195927+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0b1f6390-3d91-4afb-95a2-86bd4d8edda8",
+  "ContactStatus": "ACTIVE",
+  "Name": "LEGALSTART",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760449353383+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "baee0eea-1f25-427b-bc57-5d8f6235a78b",
+  "ContactStatus": "ACTIVE",
+  "Name": "LEBONCOIN",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760449407977+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "48676c99-6d7b-453e-85f0-70f6c382f0ee",
+  "ContactStatus": "ACTIVE",
+  "Name": "LEGAL",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760450201640+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "4ab3fc51-ed79-49c7-984f-4b179a41d067",
+  "ContactStatus": "ACTIVE",
+  "Name": "AWS",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760450202007+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "069ec711-4f72-46da-9205-aff9107f1912",
+  "ContactStatus": "ACTIVE",
+  "Name": "BOULANGER",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760450223650+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "260d71d6-bf68-4b55-bf1d-fc6fb72e84dd",
+  "ContactStatus": "ACTIVE",
+  "Name": "JAMI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760451465247+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "489f633b-922b-41ef-bebd-3c912e3bdc68",
+  "ContactStatus": "ACTIVE",
+  "Name": "Neocircle - PayPal",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760537703087+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "cdc94bd5-ddb2-4593-89f0-af5212d7a0c5",
+  "ContactStatus": "ACTIVE",
+  "Name": "Wise-service",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760539647970+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "277793f0-3f95-47b5-91fd-92152bfd29e3",
+  "ContactStatus": "ACTIVE",
+  "Name": "Windsor.ai",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760602327923+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "00b24911-da07-451c-9530-574119dd47a5",
+  "ContactStatus": "ACTIVE",
+  "Name": "Youdji",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1760704775483+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "e5f97a49-8aa0-4281-9c6b-0bb4870a3732",
+  "ContactStatus": "ACTIVE",
+  "Name": "Wildan Arya Praba Iswara",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1761289436400+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "11f9b18a-4abe-437d-ae4e-01f9f03b5032",
+  "ContactStatus": "ACTIVE",
+  "Name": "EPFL",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1761299982083+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "79d5e7be-c1b9-4788-8ea0-e9ce93401a38",
+  "ContactStatus": "ACTIVE",
+  "Name": "Payoneer",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762006360977+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "74f00b04-8f11-4c23-8280-30b735b479a1",
+  "ContactStatus": "ACTIVE",
+  "Name": "Autoroutes Paris-Rhin-Rhône péage (APRR)",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762155584787+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9183b74e-7376-407e-b081-50df19085554",
+  "ContactStatus": "ACTIVE",
+  "Name": "BCV - DAB/Geldautomat",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762195490973+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "4dec9942-048f-4428-a605-7c47a46bff92",
+  "ContactStatus": "ACTIVE",
+  "Name": "Mc Carthy's Irish Pub",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762296742563+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "75cb1180-8afb-41dc-9b5c-96ae0af59d2c",
+  "ContactStatus": "ACTIVE",
+  "Name": "Parking Du Rotillon",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762298477040+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "67528a11-850e-47c5-bfdf-42190fa9a231",
+  "ContactNumber": "54fb0116f688c3da9089db8479095a60d239e612ce46816aa5",
+  "ContactStatus": "ACTIVE",
+  "Name": "Hugo Charon",
+  "FirstName": "Hugo",
+  "LastName": "Charon",
+  "EmailAddress": "hugo@bumps.fr",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762299104177+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "a21935b3-d02a-45a0-be37-534e6ceb5d17",
+  "ContactNumber": "353fd839dd93ea9598d08760f9edd2b689becfaaa8159b34ad",
+  "ContactStatus": "ACTIVE",
+  "Name": "Thibault Le Balier (thibault@bumps.fr)",
+  "FirstName": "Thibault",
+  "LastName": "Le Balier",
+  "EmailAddress": "thibault@bumps.fr",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762299104267+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9b132f18-315c-416f-a945-c562c15f84ac",
+  "ContactStatus": "ACTIVE",
+  "Name": "Parking Rive Centre Burea",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762436964163+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "96f407a7-fad5-4258-b4fa-787b62ff08d1",
+  "ContactStatus": "ACTIVE",
+  "Name": "Td Autorout Dac",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762450782207+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "acab0b2f-b8d3-4fde-9d58-5d934f7c5c78",
+  "ContactStatus": "ACTIVE",
+  "Name": "DENYS FAJAR SEPTIAN",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1762507224770+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "cf9c55b0-f1a6-446f-b553-878057c7bca8",
+  "ContactStatus": "ACTIVE",
+  "Name": "PARKING",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1763226000103+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8dc3e933-70c9-443a-9920-5150647da8c9",
+  "ContactStatus": "ACTIVE",
+  "Name": "RESTAURANTS",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1763226155560+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8378b5e0-00d2-4f58-8793-c67507b12d2c",
+  "ContactStatus": "ACTIVE",
+  "Name": "RETRAIT ARGENT",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1763227698263+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ab594110-5739-4b48-80cd-6550dd5f0d29",
+  "ContactStatus": "ACTIVE",
+  "Name": "OPENROUTER",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1763227772490+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "11f15886-1811-4fcc-80a9-96a165d4ef43",
+  "ContactStatus": "ACTIVE",
+  "Name": "FRAMER",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1763917784953+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c6831a0b-422f-47de-b142-257ecdc0c7a8",
+  "ContactStatus": "ACTIVE",
+  "Name": "ARTLIST",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764058732857+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "99f97ca5-abae-4641-b031-605aeff08444",
+  "ContactStatus": "ACTIVE",
+  "Name": "TotalEnergies",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764104059680+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c5d168c3-893a-449c-908c-8d46df04d0a2",
+  "ContactStatus": "ACTIVE",
+  "Name": "Cofiroute",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764130872883+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "b7db2708-97e4-4540-bb66-64ae9ef64a77",
+  "ContactStatus": "ACTIVE",
+  "Name": "Hbada.eu",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764250194020+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "86d0f755-60b0-46fe-90f0-57f6821b7e1b",
+  "ContactStatus": "ACTIVE",
+  "Name": "BP",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764272076680+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8a4e72cc-0607-4351-a0c0-5524bdf9c176",
+  "ContactStatus": "ACTIVE",
+  "Name": "APRR",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764276605780+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "4efb68e2-ae53-438c-9664-f62c3e0eb5ac",
+  "ContactStatus": "ACTIVE",
+  "Name": "VINCENTIUS RANGGA SATYA RADITYA",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764424445293+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "7a627f26-fa80-4fb2-8cfb-9e9401fcb271",
+  "ContactStatus": "ACTIVE",
+  "Name": "MD AMINUL ISLAM",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764425045650+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "3d67cd0f-dae9-4ab5-be70-df1c044f6499",
+  "ContactStatus": "ACTIVE",
+  "Name": "Ligher Ltd",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764425168770+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "48032f71-b4b2-45d1-974d-5ea9f8cc5c14",
+  "ContactStatus": "ACTIVE",
+  "Name": "Muhammad Rafi Rahmatullah",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764430271210+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f89d8707-3e7c-432c-ad7a-93f05ba4f7a7",
+  "ContactStatus": "ACTIVE",
+  "Name": "SBB CFF",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764578140437+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "16848c9c-5663-4825-b3db-647fd8af76d2",
+  "ContactNumber": "f005d21b06c0856b4d88eda603399ccd24be17a7e65a61bf8d",
+  "ContactStatus": "ACTIVE",
+  "Name": "Cindy Hatchi",
+  "FirstName": "Cindy",
+  "LastName": "Hatchi",
+  "EmailAddress": "cindy@01accountingservices.com",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764582801660+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "a5b7d27b-f438-4945-846e-5b068238f3a1",
+  "ContactStatus": "ACTIVE",
+  "Name": "Event Media",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1764868892737+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "b8fe0244-3910-49f1-913f-9b63f32f79a9",
+  "ContactStatus": "ACTIVE",
+  "Name": "Aashish Panthi",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1765805451733+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9135cace-5fbb-4391-9e3f-8bd4f4dacf3d",
+  "ContactStatus": "ACTIVE",
+  "Name": "Defa Maulana Firmnsyah",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1766048474610+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c586a210-259d-47f1-9dba-a9fa5574dfd2",
+  "ContactStatus": "ACTIVE",
+  "Name": "Dribbble",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1767004326080+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "29b35aa7-f498-4314-b452-d2ccff809c51",
+  "ContactStatus": "ACTIVE",
+  "Name": "No Contact",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1767872565600+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2164626e-7a16-48cb-8aab-6583a99aef97",
+  "ContactStatus": "ACTIVE",
+  "Name": "O1 ACCOUNTING SERVICES PARIS LONDON DUBL",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768234169850+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "555bf2f6-0542-478c-a095-adab3d1cc1a9",
+  "ContactStatus": "ACTIVE",
+  "Name": "Sunday Santa Lyna",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768310850607+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ee8fefa7-6670-48c5-80ef-b66fbc0518d4",
+  "ContactStatus": "ACTIVE",
+  "Name": "Le Carnassier",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768548708600+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0878c0d4-c9b2-441e-b1b4-8c15b4c509ad",
+  "ContactStatus": "ACTIVE",
+  "Name": "Bistro Ramen Ryukishin",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768567480813+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "b7603290-37bb-45e6-beec-3c5616e0c29f",
+  "ContactStatus": "ACTIVE",
+  "Name": "RAILWAY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768844458370+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2d502057-1084-478b-858a-29c72d8527d8",
+  "ContactStatus": "ACTIVE",
+  "Name": "GUMLOOP",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768844570130+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9aa19211-36b3-4886-8662-54d2f18c5de4",
+  "ContactStatus": "ACTIVE",
+  "Name": "X AI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768844593910+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "77c7a63a-97a1-4860-bb98-effef850932d",
+  "ContactStatus": "ACTIVE",
+  "Name": "FONDATION LA SOURCE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768845287897+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2d573fb6-2b7c-40bb-b64c-764f7b22ce79",
+  "ContactStatus": "ACTIVE",
+  "Name": "GOOGLE CLOUD",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768845313820+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "fcab4db6-2a88-4fd0-9ef9-260081a0e5d7",
+  "ContactStatus": "ACTIVE",
+  "Name": "AIRBNB",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768845335867+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "ec3bd41e-3b32-4a70-97f5-78c2e30905dd",
+  "ContactStatus": "ACTIVE",
+  "Name": "CLAUDE AI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1768845788833+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "fcc1719e-ee64-425c-b56f-ee0bddcf723f",
+  "ContactStatus": "ACTIVE",
+  "Name": "ROHMAD KHOIRUDIN",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1769160645583+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2583dd58-167b-4fc1-90cf-dd386c0d5999",
+  "ContactStatus": "ACTIVE",
+  "Name": "Restaurant Wasabi",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770632457907+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f4eebb06-8c55-42ca-8082-0d1291732e20",
+  "ContactStatus": "ACTIVE",
+  "Name": "Parking Place De Cornavin",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770634923677+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "0a769cf7-8774-4e2e-aaf8-79737086cad8",
+  "ContactStatus": "ACTIVE",
+  "Name": "Av Presto in Casa",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770664019900+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "18c038ac-4b84-4467-98eb-585fa06c2e0a",
+  "ContactStatus": "ACTIVE",
+  "Name": "Sqne",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770729139927+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "45f8ae18-8646-4a90-9b0d-e87e7d8e9489",
+  "ContactStatus": "ACTIVE",
+  "Name": "Restaurant Gina",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770729176570+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "94d54562-7016-46d7-b4da-a2bc9c601b0e",
+  "ContactStatus": "ACTIVE",
+  "Name": "Villa Malfi",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770759777577+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "07f04ddb-3a46-4009-9e82-cf3f69765af2",
+  "ContactStatus": "ACTIVE",
+  "Name": "Denner",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770810457883+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c0189036-42e3-4aba-9695-3c1d2c5e84e8",
+  "ContactStatus": "ACTIVE",
+  "Name": "Société des Autoroutes Rhône-Alpes",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770916929773+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "11a91815-6403-4edb-a819-7edbc8bce95e",
+  "ContactStatus": "ACTIVE",
+  "Name": "Maison Dieu",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1770917553500+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8c0574b9-b61a-4f99-b7b6-89032f11d237",
+  "ContactStatus": "ACTIVE",
+  "Name": "Carrefour",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771064021947+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "918b11fa-b6d7-405a-a213-8461b8bf5400",
+  "ContactStatus": "ACTIVE",
+  "Name": "Garage Du Vignoble",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771151719917+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "30645e17-cf90-4bcf-b969-9b95ff245678",
+  "ContactStatus": "ACTIVE",
+  "Name": "SAILY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771151771140+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "20a126ab-f2b6-4379-824e-35cd57c88e88",
+  "ContactStatus": "ACTIVE",
+  "Name": "REVENUE COMMISSIONERS",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771151857263+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8d782c45-d41c-4aed-bb51-5da5ab6c019a",
+  "ContactStatus": "ACTIVE",
+  "Name": "Monoprix",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771352727090+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c694a91f-02be-41c7-8648-698b40c222bf",
+  "ContactStatus": "ACTIVE",
+  "Name": "Hey Hey Restaura",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771418872013+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "e9e6e8b6-31ef-40db-9646-281d462ef827",
+  "ContactStatus": "ACTIVE",
+  "Name": "Sunday Rosie Lou",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1771937236243+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "f499b56d-daad-4288-bda4-3fcd15e04b16",
+  "ContactStatus": "ACTIVE",
+  "Name": "Sabri DAHMANI",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1772201418037+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "750c92f7-584a-4a1c-879d-2ec22119d6e9",
+  "ContactStatus": "ACTIVE",
+  "Name": "Muhammad Fata Hibban",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1772364346913+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "6a966ee2-68ce-4f8d-8da3-5270b3639e72",
+  "ContactStatus": "ACTIVE",
+  "Name": "CHARON HUGO",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1772364365670+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "3dee55d9-8525-4547-86fc-33950c9d5c52",
+  "ContactStatus": "ACTIVE",
+  "Name": "Le Royal China",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1772625646927+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "fbb941aa-1c5e-4359-a594-04b0051ce5bc",
+  "ContactStatus": "ACTIVE",
+  "Name": "Le Yearling Restaurant",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773838207570+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "3ba13d4c-8867-4c9c-8142-ec61b0e9eb5b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Ls Osteria",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773867698603+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "d20b4770-1468-479c-8789-fc156410349b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Tamoil",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773875228470+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "75cb6b55-1cca-455d-994c-a85d23a5500e",
+  "ContactStatus": "ACTIVE",
+  "Name": "Parking Du Centre Flon Sa",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773875242777+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "b5192bf9-e8c9-462a-befc-25dea9df3183",
+  "ContactStatus": "ACTIVE",
+  "Name": "McDonald's",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773923686033+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "53f0b00c-d0a7-4597-889d-82c19c8c4dae",
+  "ContactStatus": "ACTIVE",
+  "Name": "Shell",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1773937524053+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "16753477-fe93-41d2-8c9d-5aac9fd6d22c",
+  "ContactStatus": "ACTIVE",
+  "Name": "Fidi Paris 1",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774351850800+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "7c8a2516-db0d-4701-b165-e1740964f344",
+  "ContactStatus": "ACTIVE",
+  "Name": "Surpriz Strasbou",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774535941220+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2bb8c250-f096-43ed-a325-730c5dac4bb4",
+  "ContactStatus": "ACTIVE",
+  "Name": "Cafe Juliette",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774546935173+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "588f8916-11d5-4a95-a11f-fa007c1a4acf",
+  "ContactStatus": "ACTIVE",
+  "Name": "APPLE",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774628280260+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "beb9d397-59cd-4e8c-bbb2-68ff51831d34",
+  "ContactNumber": "1c5ca21fff0421849f7df9e0477a90e281457014bb175c802b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Anabelle Riviere",
+  "FirstName": "Anabelle",
+  "LastName": "Riviere",
+  "EmailAddress": "anabelle@01accountingservices.com",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774631521027+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "255c75bc-9c34-48cc-90d1-580dd774d4e9",
+  "ContactStatus": "ACTIVE",
+  "Name": "XERO",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774862527887+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "1bed1763-31b1-4693-b8fa-43cf896f80d1",
+  "ContactStatus": "ACTIVE",
+  "Name": "MAKE",
+  "Addresses": [
+   {
+    "AddressType": "POBOX"
+   },
+   {
+    "AddressType": "STREET"
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI"
+   },
+   {
+    "PhoneType": "DEFAULT"
+   },
+   {
+    "PhoneType": "FAX"
+   },
+   {
+    "PhoneType": "MOBILE"
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1774865587467+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2e38ffe4-1cda-462e-a736-f8d91dac7fbf",
+  "ContactStatus": "ACTIVE",
+  "Name": "VITO ARVY FAUZY",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775233037973+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": true,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8be8bb09-4d43-48b1-b4a6-9b28c30c9af2",
+  "ContactStatus": "ACTIVE",
+  "Name": "B C",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775558106447+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c299619c-7f3b-4719-bfaf-84e6d977e7fd",
+  "ContactStatus": "ACTIVE",
+  "Name": "Migros",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775645957690+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "7122b85a-d62d-4b6b-99c9-075f6a24c56b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Coop Tankstelle",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775646077837+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "DefaultCurrency": "CHF",
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "53585898-eaf5-42bb-8f0e-a73c71eb79ea",
+  "ContactStatus": "ACTIVE",
+  "Name": "Indigo Parking",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775715208677+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "cfd33331-0cc5-4068-9619-7538ba30e90b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Cote Arrete",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1775715262187+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "6aac4f3c-01f9-4d69-b653-046e1e0f4ae2",
+  "ContactStatus": "ACTIVE",
+  "Name": "Azra",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1777891591113+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "9e61490a-87a6-4e4e-a3ea-870ecd0ef82f",
+  "ContactStatus": "ACTIVE",
+  "Name": "Aime Pouly Sa",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779097662803+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "54e4507b-db2b-44f6-ae5f-9f668a41fc2e",
+  "ContactStatus": "ACTIVE",
+  "Name": "Restaurant Las De Piq",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779130556963+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "7285b3b5-9b0e-4e81-af2d-17d56339a785",
+  "ContactStatus": "ACTIVE",
+  "Name": "Il Giardino",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779194909317+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "163d0082-509b-4109-8a04-6ff8244984dc",
+  "ContactStatus": "ACTIVE",
+  "Name": "Starbucks",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779200557087+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "6587612b-7ab9-4465-a7e8-689cbd312717",
+  "ContactStatus": "ACTIVE",
+  "Name": "Mos Pub",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779364348517+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "e162217d-a443-4193-89a5-e7441dd5cdd2",
+  "ContactStatus": "ACTIVE",
+  "Name": "Blondie",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779378372880+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "6f0f7ef5-18ec-49e6-9117-0853a79884ec",
+  "ContactStatus": "ACTIVE",
+  "Name": "Périphérique Nord",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779398788443+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "83c59a42-1d1d-471f-a20f-7577d147f444",
+  "ContactStatus": "ACTIVE",
+  "Name": "Downtown Lausanne",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779398923493+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "925dce55-a986-4f4f-8f07-0ba0558d6e20",
+  "ContactStatus": "ACTIVE",
+  "Name": "APCOA Parking",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779398952270+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "d2bf8939-a65c-43ae-a66b-7b0f2dae9e64",
+  "ContactStatus": "ACTIVE",
+  "Name": "Restaurant Jin Lin Sa",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779399097287+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "d4a7b5d0-2197-4401-8007-220fb65167dd",
+  "ContactStatus": "ACTIVE",
+  "Name": "Gangnam Pocha",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779399147100+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "d4c731d0-3750-4b5e-8cf1-c2160ace7b2f",
+  "ContactStatus": "ACTIVE",
+  "Name": "L Express De Lyon",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779792649030+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "df624388-b004-44eb-a747-89c010ebf2fb",
+  "ContactStatus": "ACTIVE",
+  "Name": "Holiday Inn",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779811588230+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "5fa257e1-528f-4045-b050-0cda9c8f41b8",
+  "ContactStatus": "ACTIVE",
+  "Name": "Le Bistrot De La",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779913048003+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8f1df4e0-6216-4a8b-b177-ec610566c631",
+  "ContactStatus": "ACTIVE",
+  "Name": "Rosie Lou",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1779972321623+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "bdfa1588-a752-49cf-b5af-9839e1ee86a6",
+  "ContactStatus": "ACTIVE",
+  "Name": "Mylo",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1780404907683+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "484d2707-0cd6-460f-a12d-1c2f215423b9",
+  "ContactStatus": "ACTIVE",
+  "Name": "CAPITOLE CAFE PARIS",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1781767578907+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "35dc76e5-49c6-4de6-be04-08028622040c",
+  "ContactStatus": "ACTIVE",
+  "Name": "Copy Center",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1781948429390+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "31e6e804-0a5d-4e9c-a167-2e9f249a88d6",
+  "ContactStatus": "ACTIVE",
+  "Name": "Rest. Richemont Bellevue",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782130225520+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "efd7db60-8666-4105-826a-a29116690cb1",
+  "ContactStatus": "ACTIVE",
+  "Name": "Kmc Sarl",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782142370403+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c6b38830-83d6-428e-90ca-6958b290a613",
+  "ContactStatus": "ACTIVE",
+  "Name": "Coop",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782208063800+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "c7892127-2645-46db-80df-547ab58c9132",
+  "ContactStatus": "ACTIVE",
+  "Name": "Royal Savoy Lausanne",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782304037023+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "73eb48ee-5a0f-44a2-bc1f-a698982c5141",
+  "ContactStatus": "ACTIVE",
+  "Name": "Cafe - Restaurant Du D",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782304051763+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "157d61e6-f04d-443b-895c-3e9a74372f0b",
+  "ContactStatus": "ACTIVE",
+  "Name": "Pf Phovi Sarl",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782418604473+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "5ec94b2a-78e1-455c-8b6c-a563a0509a68",
+  "ContactStatus": "ACTIVE",
+  "Name": "Ls Fassbind Sa Hotel",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782464330480+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "8d0573fc-1761-4fc2-a0a9-75a1b532e8c4",
+  "ContactStatus": "ACTIVE",
+  "Name": "Parking-Relais Lausannois",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782550592650+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "2ddf6a44-6a5a-4af6-bdc3-7ab3d4b9934e",
+  "ContactStatus": "ACTIVE",
+  "Name": "Eni",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782550613747+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ },
+ {
+  "ContactID": "48510991-e7c1-4b57-a4f4-6c56e1ce7b8d",
+  "ContactStatus": "ACTIVE",
+  "Name": "APRR | AREA",
+  "EmailAddress": "",
+  "BankAccountDetails": "",
+  "Addresses": [
+   {
+    "AddressType": "STREET",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   },
+   {
+    "AddressType": "POBOX",
+    "City": "",
+    "Region": "",
+    "PostalCode": "",
+    "Country": ""
+   }
+  ],
+  "Phones": [
+   {
+    "PhoneType": "DDI",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "DEFAULT",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "FAX",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   },
+   {
+    "PhoneType": "MOBILE",
+    "PhoneNumber": "",
+    "PhoneAreaCode": "",
+    "PhoneCountryCode": ""
+   }
+  ],
+  "UpdatedDateUTC": "/Date(1782551893020+0000)/",
+  "ContactGroups": [],
+  "IsSupplier": false,
+  "IsCustomer": false,
+  "ContactPersons": [],
+  "HasAttachments": false,
+  "HasValidationErrors": false
+ }
+]

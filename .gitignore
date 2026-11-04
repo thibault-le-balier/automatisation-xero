@@ -1,0 +1,6 @@
+# Secrets et jetons
+.env
+.xero_tokens.json
+.google_tokens.json
+# Données comptables (relevés Wise, factures) : ne jamais les committer
+__pycache__/

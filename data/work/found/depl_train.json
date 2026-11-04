@@ -1,0 +1,284 @@
+[
+  {
+    "wise_id": "CARD_TRANSACTION-3307529929",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe : aucun mail SNCF / SNCF Connect / OUIGO / Trainline / Lyria / CFF en 2026 dans thibault@bumps.fr (expéditeurs, mots-clés FR/EN, gares, montants « 96,00 », in:anywhere, category:reservations, PDF joints). Le Drive « Factures fournisseurs/2026/SNCF » appartient à BUMPSLAB (Qonto) et ne contient que 2 justificatifs d'octobre 2026. Justificatif à télécharger depuis le compte SNCF Connect de Hugo (boîte de Hugo non accessible).",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3315390717",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (expéditeurs SNCF/Trainline/OUIGO, montant « 61,90 », gares, in:anywhere, Drive fullText « sncf-connect ») : rien pour janvier 2026. À récupérer dans le compte SNCF Connect de Hugo (non accessible).",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3337266009",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Titre IDF Mobilités, probablement un forfait Navigo Semaine (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. La liste complète des mails iledefrance-mobilites.fr de 2026 (12 fils) commence le 16/02 : aucun reçu en janvier, et tous sont au nom de Thibault. Recherches « Navigo Semaine », « Navigo Mois », RATP, Drive fullText : rien. Reçu à demander à Hugo (son compte IDFM Connect).",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3434731861",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 55,10 », expéditeurs SNCF/Trainline, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3464973981",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "3 tickets Métro-Train-RER (2,55 € l'unité), app IDFM",
+    "note": "Aucun reçu IDFM du 17/02/2026 : le 16/02 il n'y a qu'un code de connexion IDFM Connect. Le seul reçu à 7,65 € (26/03, commande 1179638901, sans nom de titulaire) a une autre date et aucune ligne Wise ne lui correspond. Duplicata à demander depuis l'historique d'achats IDFM Connect, comme le 04/09 pour les achats du 20/07.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3485029364",
+    "found": true,
+    "source": "gmail_body",
+    "gmail_message_id": "19c876d6d23195f6",
+    "doc_number": "1168318839",
+    "doc_date": "2026-02-22",
+    "doc_total": "15.30",
+    "doc_currency": "EUR",
+    "billed_to": "Thibault Le Balier (particulier, aucune société mentionnée)",
+    "nature": "6 tickets Métro-Train-RER zones 1-5, app IDF Mobilités (Apple Pay), TVA 10 % = 1,39 €",
+    "match": "exact",
+    "note": "Vérifié : IDFM, 15,30 € TTC, acheté le 22/02/2026 à 23h16, transaction ACHIDFM…170838652. Le corps du mail fait office de justificatif ; la seule pièce jointe est le logo (logo_idfm_inline_bascule.png), il n'y a pas de PDF. Le reçu ne précise pas la carte (Apple Pay) : d'autres reçus IDFM de la boîte ont été payés par une autre carte (04/03, 26/03, 18/06, 20/07). Le montant et la date concordent avec Wise.",
+    "verdict": "confirmed"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3542058364",
+    "found": true,
+    "source": "gmail_body",
+    "gmail_message_id": "19cd9c7aecbed228",
+    "doc_number": "1174230768",
+    "doc_date": "2026-03-10",
+    "doc_total": "5.10",
+    "doc_currency": "EUR",
+    "billed_to": "Thibault Le Balier (particulier, aucune société mentionnée)",
+    "nature": "2 tickets Métro-Train-RER zones 1-5, app IDF Mobilités (Apple Pay), TVA 10 % = 0,46 €",
+    "match": "exact",
+    "note": "Vérifié : IDFM, 5,10 € TTC, acheté le 10/03/2026 à 23h04, transaction ACHIDFM…176713123. Le corps du mail fait office de justificatif, pas de PDF (logo seulement). Ce reçu n'est utilisé que pour cette ligne : la ligne Wise du 20/03 à 5,10 € n'a pas de reçu.",
+    "verdict": "confirmed"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3548905002",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 60,60 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3572231527",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 87,60 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3575807113",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "2 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu IDFM du 20/03/2026 dans la liste complète des mails IDFM de 2026. Le reçu à 5,10 € du 10/03 est déjà pris par la ligne du 10/03. Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3590304416",
+    "found": true,
+    "source": "gmail_body",
+    "gmail_message_id": "19d1e67e0e5dbf65",
+    "doc_number": "1178706963",
+    "doc_date": "2026-03-24",
+    "doc_total": "12.75",
+    "doc_currency": "EUR",
+    "billed_to": "Thibault Le Balier (particulier, aucune société mentionnée)",
+    "nature": "5 tickets Métro-Train-RER zones 1-5, app IDF Mobilités (Apple Pay), TVA 10 % = 1,16 €",
+    "match": "exact",
+    "note": "Vérifié : IDFM, 12,75 € TTC, acheté le 24/03/2026 à 06h53, transaction ACHIDFM…181161708. Le corps du mail fait office de justificatif, pas de PDF (logo seulement). Ce reçu ne sert qu'à cette ligne : celle du 31/03 à 12,75 € reste sans reçu.",
+    "verdict": "confirmed"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3594670732",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 63,00 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3612365273",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 47,00 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3615844925",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "5 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu IDFM du 31/03/2026. Le reçu de 12,75 € du 24/03 est déjà rapproché de la ligne du 24/03. Les reçus sans ligne Wise (04/03 à 15,30 €, commande 1171897825 ; 26/03 à 7,65 €, commande 1179638901) ont dû être payés par une autre carte. Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3678086559",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "3 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu d'achat IDFM le 16/04/2026 : ce jour-là, il n'y a qu'un mail de réinitialisation du mot de passe IDFM Connect (19d94bf86fe7c77b). L'achat a donc sans doute été fait sans e-mail de reçu. Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3721595241",
+    "found": true,
+    "source": "gmail_body",
+    "gmail_message_id": "19dce0c98fe084d6",
+    "doc_number": "1192581614",
+    "doc_date": "2026-04-27",
+    "doc_total": "10.20",
+    "doc_currency": "EUR",
+    "billed_to": "Thibault Le Balier (particulier, aucune société mentionnée)",
+    "nature": "4 tickets Métro-Train-RER zones 1-5, app IDF Mobilités (Apple Pay), TVA 10 % = 0,93 €",
+    "match": "exact",
+    "note": "Vérifié : IDFM, 10,20 € TTC, acheté le 27/04/2026 à 10h26, commande 1192581614. Le mail ne donne pas de n° de transaction. Le corps du mail fait office de justificatif, pas de PDF (logo seulement).",
+    "verdict": "confirmed"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3721834634",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 82,70 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3749840878",
+    "found": true,
+    "source": "gmail_body",
+    "gmail_message_id": "19df236d8da62d6b",
+    "doc_number": "1195735004",
+    "doc_date": "2026-05-04",
+    "doc_total": "5.10",
+    "doc_currency": "EUR",
+    "billed_to": "Thibault Le Balier (particulier, aucune société mentionnée)",
+    "nature": "2 tickets Métro-Train-RER zones 1-5, app IDF Mobilités (Apple Pay), TVA 10 % = 0,46 €",
+    "match": "exact",
+    "note": "Vérifié : IDFM, 5,10 € TTC, acheté le 04/05/2026 à 10h59, commande 1195735004. Le corps du mail fait office de justificatif, pas de PDF (logo seulement).",
+    "verdict": "confirmed"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3803048342",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 48,00 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3831695178",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet(s) de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 161,00 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3839757779",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "4 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu IDFM entre le 04/05 et le 18/06/2026 (liste complète des mails IDFM de 2026 vérifiée). Le reçu à 10,20 € du 27/04 est déjà rapproché. Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3839760738",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Titres IDFM, probablement 2 tickets Bus-Tram (2,05 € l'unité)",
+    "note": "Aucun reçu IDFM du 26/05/2026 (aucun mail IDFM entre le 04/05 et le 18/06). Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3847006754",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "4 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu IDFM du 27/05/2026 (aucun mail IDFM entre le 04/05 et le 18/06). Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3934272799",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 65,60 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Les reçus IDFM de Thibault du 18/06 (2,55 € et 2,05 €) viennent d'un autre fournisseur et ne correspondent pas. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3963318467",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 74,00 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3963321875",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Billet de train SNCF (achat Hugo Charon)",
+    "note": "Achat de Hugo Charon. 2e passe (montant « 26,40 », SNCF/Trainline/OUIGO, gares, in:anywhere, Drive) : rien. Boîte et compte SNCF Connect de Hugo non accessibles.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3999669601",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "1 ticket Bus-Tram IDFM (2,05 €)",
+    "note": "Aucun reçu IDFM du 02/07/2026. Le duplicata à 2,05 € (commande 1227598735, message 1a06c9aa848a889b, PDF Drive Navigo/07-Juillet) porte sur un achat du 20/07, classé comme rapproché du Qonto BUMPSLAB dans LISTE_JUSTIFICATIFS_A_FOURNIR_2026-08.md : il ne correspond pas. Duplicata du 02/07 à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3999672622",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "3 tickets Métro-Train-RER, app IDFM",
+    "note": "Aucun reçu IDFM du 02/07/2026. Les reçus du 20/07 (5,10 € et 2,05 €) sont rapprochés côté BUMPSLAB/Qonto et ne correspondent ni en montant ni en date ; le reçu à 7,65 € du 26/03 a une autre date. Duplicata à télécharger depuis le compte IDFM Connect.",
+    "verdict": "still_missing"
+  }
+]

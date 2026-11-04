@@ -1,0 +1,291 @@
+[
+ {
+  "wise_id": "CARD_TRANSACTION-3436986301",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "eSIM Saily (data mobile en voyage)",
+  "note": "Toujours introuvable. Dans Gmail, les seuls mails Saily (support@saily.com) sont du marketing de nov. 2024 à mars 2025. 2e passe sans résultat : in:anywhere saily / esim / nordvpn / Nord Account / 13.99 du 1er au 20 févr. 2026, from:saily.com, nordaccount.com et nordvpn.com de mi-janv. à fin févr., reçus et commandes du 8 au 11 févr. Rien non plus dans le Drive (fullText Saily). Achat de Thibault : télécharger le reçu depuis l'app ou le compte Saily (13.99 USD, 9 févr. 2026).",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3574915234",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement API CustomJS plan PRO via Nokia API Hub (ex-RapidAPI) – 9.99 USD",
+  "note": "'Nokia of America Corpo' = Nokia of America Corporation, l'émetteur des factures RapidAPI / Nokia API Hub (facture type 603DD6EC-00xx, PRO plan CustomJS 9.99 USD, billed to thibault@bumps.fr). Le dernier mail de paiement est celui du 5 janv. 2026 (msg 19b8dfb1f8597c5c), qui correspond à la ligne Wise RAPID du 4 janv. Les débits Rapid à 9.99 USD des 4 févr. et 19 févr. 2026 laissent penser qu'il y a un 2e abonnement, renouvelé le 19 de chaque mois. Rien pour mars dans Gmail (in:anywhere rapidapi / nokia / customjs / API Hub depuis nov. 2025). Le Drive 'RapidAPI - a reconcilier' s'arrête à nov. 2025 (0010). Facture à télécharger dans RapidAPI > Billing / Transactions History (19 mars 2026).",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3880038268",
+  "found": true,
+  "source": "gmail_attachment",
+  "gmail_message_id": "19e92f9933f8c2de",
+  "attachment_filename": "Invoice-4C5C58BF-0005.pdf",
+  "doc_number": "4C5C58BF-0005",
+  "doc_date": "2026-06-04",
+  "doc_total": "59.00",
+  "doc_currency": "USD",
+  "billed_to": "Non visible dans le mail. ATTENTION : la facture suivante du même compte (4C5C58BF-0011, août 2026) est au nom de BUMPSLAB, Paris, TVA FR96100095686. À vérifier sur le PDF.",
+  "nature": "Apollo.io – abonnement Basic Seat x1 (4 juin–4 juil. 2026)",
+  "match": "exact",
+  "note": "Vérifié : reçu Stripe ZenLeads Inc. (dba Apollo.io) n° 2877-1363, payé 59.00 USD le 4 juin 2026 avec la carte se terminant par 9023 (même carte qu'en juillet). Les PJ Invoice-4C5C58BF-0005.pdf et Receipt-2877-1363.pdf existent bien. En août, le paiement passe sur une autre carte (0950) et la facture est au nom de BUMPSLAB.",
+  "verdict": "confirmed"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3880615349",
+  "found": true,
+  "source": "gmail_attachment",
+  "gmail_message_id": "19e937daec6ab49e",
+  "attachment_filename": "Invoice-4C5C58BF-0007.pdf",
+  "doc_number": "4C5C58BF-0007",
+  "doc_date": "2026-06-04",
+  "doc_total": "58.81",
+  "doc_currency": "USD",
+  "billed_to": "Non visible dans le mail. Même réserve : facture d'août du même compte au nom de BUMPSLAB, à vérifier sur le PDF.",
+  "nature": "Apollo.io – passage à 2 Basic Seats (4 juin–4 juil. 2026), net du prorata remboursé",
+  "match": "exact",
+  "note": "Vérifié : reçu n° 2933-7893 du 4 juin 2026, 2 sièges x 59 USD = 118 USD moins 59.19 USD de prorata remboursé, total payé 58.81 USD, carte se terminant par 9023. La PJ Invoice-4C5C58BF-0007.pdf existe bien. Ce document est distinct de celui de la ligne à 59.00 USD.",
+  "verdict": "confirmed"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-4010355249",
+  "found": true,
+  "source": "gmail_attachment",
+  "gmail_message_id": "19f2d795f5e1f565",
+  "attachment_filename": "Invoice-4C5C58BF-0009.pdf",
+  "doc_number": "4C5C58BF-0009",
+  "doc_date": "2026-07-04",
+  "doc_total": "59.00",
+  "doc_currency": "USD",
+  "billed_to": "Non visible dans le mail. Même réserve : facture d'août du même compte au nom de BUMPSLAB, à vérifier sur le PDF.",
+  "nature": "Apollo.io – abonnement Basic Seat x1 (4 juil.–4 août 2026)",
+  "match": "exact",
+  "note": "Vérifié : reçu n° 2389-5227, payé 59.00 USD le 4 juil. 2026 avec la carte se terminant par 9023. La PJ Invoice-4C5C58BF-0009.pdf existe bien. Les reçus d'août à nov. (0011 et suivants) sont payés par la carte 0950 et ne concernent pas Wise.",
+  "verdict": "confirmed"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3315959732",
+  "found": true,
+  "source": "drive",
+  "drive_file_id": "1qwb-VWnuDMwUD1ZfmUPMI_gb4JPKj_zF",
+  "drive_file_name": "INV_3315959732_JANV_2026.pdf",
+  "doc_number": "Transaction ID 149989",
+  "doc_date": "2026-01-06",
+  "doc_total": "159.80",
+  "doc_currency": "USD",
+  "billed_to": "Hugo @bumps (hugo@bumps.fr), sans nom de société",
+  "nature": "Dribbble – prestation design 'Bumps project testing (Final Delivery)' 155 USD + 4.80 USD de frais Stripe",
+  "match": "exact",
+  "note": "Trouvé dans le Drive partagé SMARTKETING_LIMITED, dossier FOURNISSEURS envoyé au cabinet comptable le 11 mai 2026. Le nom du fichier contient le numéro de la transaction Wise, 3315959732. Reçu Dribbble Holdings Ltd daté du 6 janv. 2026. La pièce est en USD (159.80) et le débit Wise en EUR (142.19) : c'est le même schéma qu'en 2025 (141.11 EUR pour 159.80 USD). La pièce est au nom de Hugo, pas de SMARTKETING.",
+  "verdict": "newly_found"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3330901353",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus (espace 'bumps - studio') – janv. 2026",
+  "note": "Achat de Hugo, facture envoyée à sa boîte (non accessible). 2e passe sans résultat : Gmail in:anywhere from notion.so / makenotion.com avec invoice, receipt ou facture depuis le 15 déc. 2025 (seulement des notifications d'espace). Drive : titres 4D9B15D9 et fullText 'Notion Labs'. Le dossier NOTION de clôture 2025 s'arrête à 0015 (10 déc. 2025) et le dossier BUMPSLAB commence à 0024 (sept. 2026). Facture attendue : n° estimé 4D9B15D9-0016 du 10 janv. 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3380506977",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Commande Fiverr (vendeur Saba @saba_ahmad2, probablement SEO/backlinks)",
+  "note": "Achat de Thibault (compte Fiverr thibault_bumps). Seuls des mails du vendeur et de livraison existent (25 janv. et 5 févr. 2026), sans reçu. 2e passe sans résultat : in:anywhere fiverr / 120.16 / 120,16 du 15 janv. au 28 févr., et Drive fullText Fiverr. Facture à télécharger sur Fiverr > Billing > Invoices.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3383484493",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – janv. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). thibault@bumps.fr ne reçoit de 1Password que du marketing et des codes. Drive : les factures 1Password 2026 n'existent qu'à partir d'août (26.34 EUR, BUMPSLAB SARL, dossier 1Password BUMPSLAB). Le dossier '1password - ok' de Hugo couvre 2025.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3398307500",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – janv. 2026",
+  "note": "Achat de Hugo. Les factures Figma sont adressées à 'design's team' (boîte de Hugo, non accessible). Drive : le dossier FIGMA de clôture 2025 s'arrête à 0016 (29 déc. 2025). Les factures BUMPSLAB commencent à 0024 (4 sept. 2026, 20.00 EUR). Facture attendue : n° estimé 0E203431-0017 du 29 janv. 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3426306833",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement UX Pilot – févr. 2026",
+  "note": "Achat de Hugo. Aucun mail UX Pilot dans Gmail. Le Drive 'UX-pilot - ok' ne contient que 3AE42F1A-0001 à 0007 (mars–oct. 2025, en USD), rien pour 2026 (fullText 3AE42F1A). Facture dans la boîte de Hugo (hugo@bumps.fr), non accessible.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3441889193",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – févr. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0017 du 10 févr. 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3493327949",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – févr. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive pour févr. 2026.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3505430154",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – févr. 2026",
+  "note": "Achat de Hugo, facture adressée à 'design's team' (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 0E203431-0018 du 28 févr. 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3525558537",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement UX Pilot – mars 2026",
+  "note": "Achat de Hugo. Rien dans Gmail ni dans le Drive pour 2026. Facture dans la boîte de Hugo, non accessible.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3541257796",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – mars 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0018 du 10 mars 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3594965274",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – mars 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3610847842",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – mars 2026",
+  "note": "Achat de Hugo, facture non accessible. Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 0E203431-0019 du 29 mars 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3657339659",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – avr. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0019 du 10 avr. 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3714823808",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – avr. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3731230786",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – avr. 2026",
+  "note": "Achat de Hugo, facture non accessible. Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 0E203431-0020 du 29 avr. 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3776101310",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – mai 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0020 du 10 mai 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3836812904",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – mai 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3855028383",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – mai 2026",
+  "note": "Achat de Hugo, facture non accessible. Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 0E203431-0021 du 29 mai 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3906095561",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – juin 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0021 du 10 juin 2026, 28.29 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3910981799",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Impression en ligne Printoclock (probablement cartes de visite, commande validée à la réunion Apollo du 10 juin 2026)",
+  "note": "Achat de Hugo. Aucun mail Printoclock dans Gmail (in:anywhere depuis déc. 2025) ni pièce dans le Drive (titre et fullText Printoclock). La note de réunion Gemini du 10 juin 2026 mentionne la validation de la commande de cartes de visite. Facture à télécharger depuis le compte Printoclock de Hugo (26.40 EUR TTC, 11 juin 2026).",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3969132037",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement 1Password – juin 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-3987966723",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Figma Professional – juin 2026",
+  "note": "Achat de Hugo, facture non accessible. Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 0E203431-0022 du 29 juin 2026, 24.00 EUR.",
+  "verdict": "still_missing"
+ },
+ {
+  "wise_id": "CARD_TRANSACTION-4038164587",
+  "found": false,
+  "source": "none",
+  "match": "none",
+  "nature": "Abonnement Notion Plus – juil. 2026",
+  "note": "Achat de Hugo, facture dans sa boîte (non accessible). Rien dans Gmail ni dans le Drive. Facture attendue : n° estimé 4D9B15D9-0022 du 10 juil. 2026, 28.29 EUR. La 0024 de sept. 2026 (27.60 EUR) est dans le dossier BUMPSLAB et n'est pas concernée.",
+  "verdict": "still_missing"
+ }
+]

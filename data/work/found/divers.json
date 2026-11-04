@@ -1,0 +1,101 @@
+[
+  {
+    "wise_id": "CARD_TRANSACTION-3816851555",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas – Les Montagnards Brasserie, Broc (Gruyère, canton de Fribourg)",
+    "note": "Identifié : 'Ms Lesmontagnardsbro' = Les Montagnards – Brasserie, Rue de Montsalvens 4, 1636 Broc (lesmontagnards.ch ; même bâtiment que Le Sommet, restaurant étoilé). 2e recherche sans résultat : Gmail in:anywhere (Montagnards, Broc, 'Le Sommet', avril-juin), montants 118.58/118,58, expéditeurs SumUp/Zenchef/Sunday/Lightspeed/TheFork, mails de Hugo (ticket, reçu, note de frais), Drive fullText. Seule réservation Zenchef du 20/05 : Downtown à Lausanne, sans rapport. Achat de Hugo Charon : ticket papier ou dans sa propre boîte, à laquelle je n'ai pas accès.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3818427656",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Boulangerie / tea-room – La Brocoiserie, Broc (canton de Fribourg)",
+    "note": "Identifié : La Brocoiserie Sàrl = boulangerie-pâtisserie avec coin café, Rue de Montsalvens 3, 1636 Broc (CHE-190.624.238), en face des Montagnards. Déplacement de Hugo à Broc les 20-21 mai 2026. 2e recherche sans résultat : Gmail in:anywhere (Brocoiserie, Broc, 17.80/17,80), mails de Hugo, Drive fullText. Achat de Hugo Charon : ticket papier probable, ou dans sa propre boîte, à laquelle je n'ai pas accès.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3958118094",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas restaurant – Restaurant Gina",
+    "note": "2e recherche sans résultat : Gmail in:anywhere (Gina, 93.00/93,00, restaurant + réservation/reçu de mi-mai à mi-juillet), expéditeurs SumUp/Zenchef/TheFork/Sunday/Lightspeed, Drive. Ticket papier probable.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3964842258",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas restaurant – Yokocho",
+    "note": "Préfixe 'Ls' = terminal Lightspeed. 2e recherche sans résultat : Gmail in:anywhere (Yokocho, 44.50/44,50, expéditeurs Lightspeed), Drive fullText. Achat de Hugo Charon : ticket papier ou dans sa propre boîte, à laquelle je n'ai pas accès.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3966004176",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Consommations bar – White Horse Pub",
+    "note": "2e recherche sans résultat : Gmail in:anywhere ('White Horse', pub, 23.00), Drive fullText. Ticket papier probable.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-4055867550",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas – Auberge du Grand-Sommartel, La Sagne (Jura neuchâtelois)",
+    "note": "wise_id corrigé : le 1er agent avait écrit CARD_TRANSACTION-3055867550, le bon identifiant est 4055867550. Libellé tronqué confirmé : Auberge du Grand-Sommartel (métairie-restaurant), Sommartel 257a, 2314 La Sagne NE. Anomalie mineure : les annuaires indiquent une fermeture le lundi et le mardi, or le 14/07/2026 est un mardi (horaires d'été peut-être différents). 2e recherche sans résultat : Gmail in:anywhere (Sommartel, auberge + réservation/reçu, 25.00), Drive fullText. Ticket papier probable.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3337846710",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas restaurant – L'Express de Lyon",
+    "note": "Statut RAPPROCHE (déjà traité dans Xero). 2e recherche sans résultat : Gmail in:anywhere ('Express de Lyon', 48.40/48,40, du 5 au 25 janvier 2026), Drive. Ticket papier probable.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3340594313",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas restaurant – Santa Lyna (paiement via l'app Sunday)",
+    "note": "Statut RAPPROCHE. 2e recherche sans résultat : Gmail in:anywhere ('Santa Lyna', sundayapp, from:sundayapp.com, 33.49/33,49, du 5 au 25 janvier 2026). Paiement de Hugo Charon via Sunday : le reçu est sans doute dans sa propre boîte, à laquelle je n'ai pas accès.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3351522323",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Consommations bar/restaurant – Rehab Paris",
+    "note": "Statut RAPPROCHE. Préfixe 'Ls' = terminal Lightspeed. 2e recherche sans résultat : Gmail in:anywhere (Rehab, 23.50/23,50, expéditeurs Lightspeed, janvier 2026). Achat de Hugo Charon : ticket papier ou dans sa propre boîte, à laquelle je n'ai pas accès.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3469220650",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas / snack – Sürpriz",
+    "note": "Catégorie Wise 'Travel', sans doute un repas en déplacement. 2e recherche sans résultat : Gmail in:anywhere (Sürpriz/Surpriz, 19.40/19,40), livraison du 16 au 21/02 (Uber Eats, Deliveroo, Just Eat, Smood, Wolt), Drive. Ticket papier probable.",
+    "verdict": "still_missing"
+  },
+  {
+    "wise_id": "CARD_TRANSACTION-3840607247",
+    "found": false,
+    "source": "none",
+    "match": "none",
+    "nature": "Repas restaurant – Au Cochon Volant",
+    "note": "2e recherche sans résultat : Gmail in:anywhere ('Cochon Volant', 34.00/34,00, restaurant + réservation/reçu en mai 2026, Zenchef/TheFork), Drive fullText. Ticket papier probable.",
+    "verdict": "still_missing"
+  }
+]

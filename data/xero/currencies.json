@@ -1,0 +1,22 @@
+[
+ {
+  "Code": "EUR",
+  "Description": "Euro"
+ },
+ {
+  "Code": "CHF",
+  "Description": "Swiss Franc"
+ },
+ {
+  "Code": "IDR",
+  "Description": "Indonesian Rupiah"
+ },
+ {
+  "Code": "NPR",
+  "Description": "Nepalese Rupee"
+ },
+ {
+  "Code": "USD",
+  "Description": "United States Dollar"
+ }
+]
