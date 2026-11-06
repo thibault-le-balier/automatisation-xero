@@ -18,13 +18,21 @@ DATA = ROOT / "data"
 WORK = DATA / "work"
 TAG = "AUTO26"
 
+CAR = (r"aprr|\barea\b|vinci|cofiroute|autoroute|p[ée]age|p[ée]riph[ée]rique|bipandgo|parking|apcoa|indigo"
+       r"|tamoil|^eni$|shell|totalenergies|total energies|^bp$|tankstelle|garage")
+TRAVEL = r"sncf|navigo|idf mobilit|airbnb|holiday inn|h[oô]tel|sbb|cff|lyria|trainline|^uber$"
+FOOD = (r"restaurant|^rest\.|bistro|brasserie|caf[ée]|\bpub\b|mcdonald|starbucks|pizz|montagnard|brocoiserie"
+        r"|yokocho|auberge|cochon volant|s[uü]rpriz|santa lyna|^sunday")
+# Décisions de Thibault (04/11/2026) sur les paiements Revenue d'août
+REVENUE_BY_AMOUNT = {21487.12: ("830", "impôt sur les sociétés 2025"), 958.56: ("825", "cotisations sur salaires")}
+
 # (motif sur la contrepartie Wise, contact Xero, compte, TVA, à confirmer ?)
 RULES = [
     (r"revenue commissioners", "REVENUE COMMISSIONERS", "825", "NONE", False),
     (r"^charon hugo$", "Hugo Charon", "804", "NONE", False),
     (r"^le balier thibault$", "THIBAULT LE BALIER", "804", "NONE", False),
     (r"o1 accounting", "O1 ACCOUNTING SERVICES PARIS LONDON DUBL", "412", "INPUT", False),
-    (r"^sabri dahmani$", "Sabri DAHMANI", "494", "NONE", True),  # facture d'hébergement à Cully
+    (r"^sabri dahmani$", "Sabri DAHMANI", "494", "NONE", False),  # facture d'hébergement à Cully
     (r"vincentius|vito arvy|fata hibban|rohmad|aashish|denys fajar|wildan", None, "4121", "INPUT", False),
     (r"^(anthropic|claude|anthropic claude subscription)$", "CLAUDE AI", "485", "INPUT", False),
     (r"^cursor", "CURSOR", "4852", "INPUT", False),
@@ -42,15 +50,22 @@ RULES = [
     (r"^apollo$", "APOLLO", "485", "INPUT", False),
     (r"^docker$", "DOCKER", "485", "INPUT", False),
     (r"^tavily$", "TAVILY", "485", "INPUT", False),
-    (r"aprr|vinci autoroutes|bipandgo|parkingpay|apcoa|parking", None, "493", "INPUT", False),
-    (r"^apple distribution", "APPLE", "260", "NONE", True),
+    (r"^nokia of america", "RAPID API", "485", "INPUT", False),  # émetteur des factures RapidAPI / Nokia API Hub
+    # Alignement sur les comptes 2025 révisés par le cabinet :
+    # voiture (carburant, péages, parkings) -> 449 ; déplacements (train, transports, logement) -> 494 ; repas -> 420
+    (r"^sncf", "SNCF", "494", "NONE", False),
+    (r"^airbnb", "AIRBNB", "494", "NONE", False),
+    (CAR, None, "449", "INPUT", False),
+    (TRAVEL, None, "494", "NONE", False),
+    (FOOD, None, "420", "NONE", False),
+    (r"^apple distribution", "APPLE", "260", "NONE", False),
     (r"^jane", "JANE", "200", "OUTPUT", False),
     (r"^epfl$", "EPFL", "200", "OUTPUT", False),
 ]
 CATEGORY_DEFAULT = {
     "Software and web hosting": ("485", "INPUT"),
     "Marketing": ("400", "INPUT"),
-    "Travel": ("493", "INPUT"),
+    "Travel": ("494", "NONE"),
     "Entertainment": ("420", "NONE"),
     "Office expenses": ("453", "INPUT"),
     "Contract services": ("4121", "INPUT"),
@@ -76,7 +91,8 @@ def main():
     contact_by_norm = {norm(c): c for c in contacts}
     found = {l["wise_id"]: l for f in sorted((WORK / "found").glob("*.json")) for l in load_json(f, [])}
     docs = defaultdict(list)
-    for d in load_json(WORK / "docs_drafts.json", []) + load_json(WORK / "docs_google.json", []):
+    mcp = [json.loads(l) for l in open(WORK / "docs_mcp.jsonl")] if (WORK / "docs_mcp.jsonl").exists() else []
+    for d in (load_json(WORK / "docs_drafts.json", []) + load_json(WORK / "docs_wise.json", []) + mcp):
         if d["file"] not in docs[d["wise_id"]]:
             docs[d["wise_id"]].append(d["file"])
 
@@ -94,6 +110,9 @@ def main():
             return "WISE", "404", "NONE", False, "règle"
         if r["kind"] == "BALANCE_CASHBACK":
             return "WISE", "270", "NONE", False, "règle"
+        if re.search(r"revenue commissioners", cp.lower()) and round(float(r["amount"]), 2) in REVENUE_BY_AMOUNT:
+            acc, why = REVENUE_BY_AMOUNT[round(float(r["amount"]), 2)]
+            return "REVENUE COMMISSIONERS", acc, "NONE", False, f"décision : {why}"
         for rx, contact, acc, tax, doubt in RULES:
             if re.search(rx, cp.lower()):
                 return contact or find_contact(cp), acc, tax, doubt, "règle"
@@ -120,11 +139,17 @@ def main():
             contact, acc, tax, doubt, why = code(r)
             if r["line"] == "fee":
                 desc = f"Frais Wise – {r['wise_id']}"
+            elif r["kind"] == "BALANCE_CASHBACK":
+                desc = "Cashback Wise (balance cashback)"
             else:
-                desc = f.get("nature") or f"{r['counterparty']} – {r['orig_amount']} {r['orig_currency']}".strip(" –")
+                parts = [r["counterparty"], r["reference"]]
+                if r["orig_currency"] and r["orig_currency"] != r["currency"]:
+                    parts.append(f"{float(r['orig_amount']):,.2f} {r['orig_currency']}".replace(",", " "))
+                desc = f.get("nature") or " – ".join(p for p in parts if p)
                 if r["status_wise"] == "REFUNDED":
                     desc = f"Remboursement {desc}"
-            if r["counterparty"].lower().startswith("revenue") and abs(float(r["amount"]) - 1917.11) > 1:
+            if (r["counterparty"].lower().startswith("revenue") and abs(float(r["amount"]) - 1917.11) > 1
+                    and round(float(r["amount"]), 2) not in REVENUE_BY_AMOUNT):
                 doubt, why = True, why + " ; montant hors mensualité PAYE : vérifier impôt et période"
             plan.append({
                 "wise_id": r["wise_id"], "line": r["line"], "bank_account": r["account"], "type": r["type"],
@@ -138,12 +163,15 @@ def main():
             for path in docs[r["wise_id"]]:
                 attach.append({"wise_id": r["wise_id"], "statut": r["statut"], "xero_id": r["xero_id"], "file": path})
 
+    headers = {"plan.csv": ["wise_id", "line", "bank_account", "type", "date", "amount", "currency", "contact",
+                            "account_code", "tax_type", "description", "reference", "a_confirmer", "source_codage",
+                            "justificatif"],
+               "attach_plan.csv": ["wise_id", "statut", "xero_id", "file"]}
     for name, data in (("plan.csv", plan), ("attach_plan.csv", attach)):
-        if data:
-            with open(WORK / name, "w", newline="") as fh:
-                w = csv.DictWriter(fh, fieldnames=list(data[0].keys()))
-                w.writeheader()
-                w.writerows(data)
+        with open(WORK / name, "w", newline="") as fh:  # toujours réécrit, même vide
+            w = csv.DictWriter(fh, fieldnames=headers[name])
+            w.writeheader()
+            w.writerows(data)
     c = Counter((p["bank_account"], p["type"], p["line"]) for p in plan)
     print("Écritures à créer :", len(plan), dict(c))
     print("  à confirmer :", sum(p["a_confirmer"] == "OUI" for p in plan))

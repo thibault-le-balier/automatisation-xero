@@ -19,8 +19,20 @@ def load(path, default):
 def main():
     rows = [r for r in csv.DictReader(open(WORK / "wise_lines.csv")) if r["line"] == "main"]
     found = {l["wise_id"]: l for f in sorted((WORK / "found").glob("*.json")) for l in load(f, [])}
-    drafts = {d["wise_id"] for d in load(WORK / "docs_drafts.json", [])}
+    drafts = {d["wise_id"] for d in load(WORK / "docs_drafts.json", []) + load(WORK / "docs_wise.json", [])}
+    mcp = WORK / "docs_mcp.jsonl"
+    downloaded = drafts | ({json.loads(l)["wise_id"] for l in open(mcp)} if mcp.exists() else set())
     bundled = {x["wise_id"] for f in (WORK / "bundles").glob("*.json") for x in load(f, [])}
+
+    # Paiements remboursés : un débit et un remboursement du même montant chez le même marchand (net nul).
+    refunded = set()
+    for r in rows:
+        if r["type"] == "RECEIVE" and r["status_wise"] == "REFUNDED":
+            twin = next((o for o in rows if o["type"] == "SPEND" and o["wise_id"] not in refunded
+                         and o["account"] == r["account"] and o["amount"] == r["amount"]
+                         and o["counterparty"][:5].lower() == r["counterparty"][:5].lower()), None)
+            if twin:
+                refunded |= {r["wise_id"], twin["wise_id"]}
 
     out = []
     for r in rows:
@@ -29,10 +41,14 @@ def main():
             etat, detail = "déjà joint dans Xero", ""
         elif r["kind"] == "BALANCE_CASHBACK":
             etat, detail = "sans facture (relevé Wise)", "cashback Wise"
+        elif r["wise_id"] in refunded:
+            etat, detail = "sans facture (relevé Wise)", "paiement remboursé, net nul"
         elif r["wise_id"] in drafts:
-            etat, detail = "trouvé", "brouillon de facture Xero"
-        elif f.get("found"):
+            etat, detail = "trouvé", "brouillon Xero / export Wise"
+        elif f.get("found") and r["wise_id"] in downloaded:
             etat, detail = "trouvé", f"{f['source']} ({f.get('match')})"
+        elif f.get("found"):
+            etat, detail = "manquant", "trouvé mais non téléchargeable par le connecteur : " + (f.get("note") or "")[:200]
         elif r["wise_id"] in bundled and r["wise_id"] not in found:
             etat, detail = "recherche en cours", ""
         else:

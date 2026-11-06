@@ -92,6 +92,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--attach-only", action="store_true")
     ap.add_argument("--undo", action="store_true")
+    ap.add_argument("--only", default="", help="références Wise séparées par des virgules")
+    ap.add_argument("--include-doubtful", action="store_true", help="inclure les lignes « à confirmer »")
     args = ap.parse_args()
 
     plan = list(csv.DictReader(open(WORK / "plan.csv")))
@@ -137,6 +139,14 @@ def main():
         sys.exit(1)
     auto = existing_auto()
     todo = [p for p in plan if p["reference"] not in auto]
+    if args.only:
+        wanted = {w.strip() for w in args.only.split(",")}
+        todo = [p for p in todo if p["wise_id"] in wanted or p["reference"] in wanted]
+    if not args.include_doubtful:
+        skipped = [p for p in todo if p["a_confirmer"] == "OUI"]
+        todo = [p for p in todo if p["a_confirmer"] != "OUI"]
+        if skipped:
+            print(f"{len(skipped)} lignes « à confirmer » écartées (--include-doubtful pour les inclure)")
     # Les lignes avec justificatif d'abord, pour que le test porte aussi sur les pièces jointes.
     todo.sort(key=lambda p: (p["justificatif"] in ("", "relevé Wise"), p["date"]))
     if args.limit:

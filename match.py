@@ -27,6 +27,11 @@ def xero_date(s):
     return dt.datetime.fromtimestamp(ms / 1000, dt.UTC).date()
 
 
+def xero_stamp(t):
+    m = re.search(r"\d+", t.get("UpdatedDateUTC") or "")
+    return int(m.group()) if m else 0
+
+
 def money(s):
     return round(float(s), 2) if s not in ("", None) else 0.0
 
@@ -68,7 +73,15 @@ def wise_lines():
 
 
 def main():
-    bts = json.load(open(DATA / "xero" / "bank_transactions.json"))
+    raw = json.load(open(DATA / "xero" / "bank_transactions.json"))
+    # Une lecture paginée pendant que quelqu'un rapproche peut renvoyer deux fois la même écriture :
+    # on garde la version la plus récente et on ignore les écritures supprimées ou annulées.
+    latest = {}
+    for t in raw:
+        prev = latest.get(t["BankTransactionID"])
+        if prev is None or xero_stamp(t) >= xero_stamp(prev):
+            latest[t["BankTransactionID"]] = t
+    bts = [t for t in latest.values() if t["Status"] not in ("DELETED", "VOIDED")]
     for t in bts:
         t["_date"] = xero_date(t["Date"])
         t["_used"] = False
@@ -87,6 +100,8 @@ def main():
             ref_hit = w["wise_num"] in (t.get("Reference") or "")
             if w["line"] == "fee" and (t.get("Reference") or "").startswith("FEE-") and not ref_hit:
                 continue  # frais d'une autre opération
+            if w["line"] == "fee" and not ref_hit and (t.get("Contact") or {}).get("Name", "").upper() not in ("WISE", "WISE-SERVICE"):
+                continue  # des frais Wise ne s'apparient qu'à une écriture Wise (ex. Railway 0,79 ≠ frais 0,79)
             name_hit = norm(w["counterparty"])[:5] and norm(w["counterparty"])[:5] in norm((t.get("Contact") or {}).get("Name"))
             yield (0 if ref_hit else 1, 0 if name_hit else 1, gap), t
 
@@ -108,6 +123,26 @@ def main():
         else:
             w.update({"statut": "A_CREER", "xero_id": "", "xero_date": "", "xero_contact": "",
                       "xero_account_code": "", "xero_has_attachment": False})
+
+    # Pré-autorisations scindées (split_preauth.py) : dépense du montant bloqué + recette « ... PREAUTH ».
+    for w in lines:
+        if w["statut"] != "A_CREER" or w["line"] != "main":
+            continue
+        rel = next((t for t in bts if not t["_used"] and t["Type"] == "RECEIVE"
+                    and (t.get("Reference") or "") == f"AUTO26 {w['wise_id']} PREAUTH"), None)
+        if not rel:
+            continue
+        hold = next((t for t in bts if not t["_used"] and t["Type"] == "SPEND"
+                     and t["BankAccount"]["Name"] == w["account"]
+                     and abs(t["Total"] - rel["Total"] - w["amount"]) < 0.005
+                     and abs((t["_date"] - rel["_date"]).days) <= DATE_WINDOW), None)
+        if hold:
+            rel["_used"] = hold["_used"] = True
+            w.update({"statut": "RAPPROCHE" if hold["IsReconciled"] else "EN_ATTENTE",
+                      "xero_id": hold["BankTransactionID"], "xero_date": hold["_date"].isoformat(),
+                      "xero_contact": (hold.get("Contact") or {}).get("Name", ""),
+                      "xero_account_code": "|".join(l.get("AccountCode") or "" for l in hold["LineItems"]),
+                      "xero_has_attachment": hold.get("HasAttachments", False)})
 
     OUT.mkdir(parents=True, exist_ok=True)
     fields = list(lines[0].keys())

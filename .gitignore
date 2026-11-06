@@ -2,5 +2,14 @@
 .env
 .xero_tokens.json
 .google_tokens.json
-# Données comptables (relevés Wise, factures) : ne jamais les committer
+
+# Données comptables (relevés Wise, factures, exports Xero) : ne jamais les committer
+data/
+Wise with invoices pdf/
+Factures à déposer/
+factures_manquantes_*.csv
+*.pdf
+
+# Divers
 __pycache__/
+.DS_Store

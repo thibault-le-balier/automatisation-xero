@@ -16,14 +16,24 @@ import json
 import urllib.parse
 from pathlib import Path
 
+import re
+
 import xero_api as x
 from match import xero_date
+from plan import CAR, CATEGORY_DEFAULT, FOOD, TRAVEL
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 WORK = DATA / "work"
-RECODE = {"Travel": ("493", "INPUT"), "Entertainment": ("420", "NONE"), "Office expenses": ("453", "INPUT"),
-          "General": ("429", "INPUT"), "Software and web hosting": ("485", "INPUT")}
+
+
+def recode(counterparty, category):
+    """Même règle que plan.py : voiture 449, déplacements 494, repas 420, sinon catégorie Wise."""
+    cp = counterparty.lower()
+    for rx, acc, tax in ((CAR, "449", "INPUT"), (TRAVEL, "494", "NONE"), (FOOD, "420", "NONE")):
+        if re.search(rx, cp):
+            return acc, tax
+    return CATEGORY_DEFAULT.get(category, ("429", "INPUT"))
 
 
 def main():
@@ -65,7 +75,7 @@ def main():
             continue
         if not any(li.get("AccountCode") == "430" for li in t["LineItems"]):
             continue
-        acc, tax = RECODE.get(r["category"], ("429", "INPUT"))
+        acc, tax = recode(r["counterparty"], r["category"])
         lines = [{**{k: li[k] for k in ("LineItemID", "Description", "Quantity", "UnitAmount") if k in li},
                   "AccountCode": acc if li.get("AccountCode") == "430" else li["AccountCode"],
                   "TaxType": tax if li.get("AccountCode") == "430" else li.get("TaxType")} for li in t["LineItems"]]

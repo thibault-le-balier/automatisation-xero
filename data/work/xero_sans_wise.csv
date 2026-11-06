@@ -1,4 +1,0 @@
-xero_id,compte,type,date,montant,contact,reference,rapproche,comptes
-04110fe3-9e75-4bc9-8aec-f71423983cd5,Compte CHF,SPEND,2026-01-04,0.41,RAPID API,,True,485
-29e75c47-2051-4abe-9682-edd2f3333d07,Compte CHF,RECEIVE,2026-01-04,0.41,RAPID API,,True,485
-81d6ab8a-df52-427d-b0aa-3f678e486328,Compte EURO,SPEND,2026-02-12,54.6,Autoroutes Paris-Rhin-Rhône péage (APRR),,False,493
