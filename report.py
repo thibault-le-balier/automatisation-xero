@@ -43,6 +43,8 @@ def main():
             etat, detail = "sans facture (relevé Wise)", "cashback Wise"
         elif r["wise_id"] in refunded:
             etat, detail = "sans facture (relevé Wise)", "paiement remboursé, net nul"
+        elif float(r["amount"]) < 1:  # décision de Thibault (09/11/2026) : sous 1 €/CHF, le relevé Wise suffit
+            etat, detail = "sans facture (relevé Wise)", "montant inférieur à 1, le relevé Wise suffit"
         elif r["wise_id"] in drafts:
             etat, detail = "trouvé", "brouillon Xero / export Wise"
         elif f.get("found") and r["wise_id"] in downloaded:

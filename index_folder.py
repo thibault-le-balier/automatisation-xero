@@ -53,6 +53,9 @@ def dates_in(text):
     for d, mon, y in re.findall(r"\b(\d{1,2})(?:er)?\s+([A-Za-zéûè]{3,9})\.?,?\s+(20\d{2})\b", text):
         if mon.lower() in MONTHS:
             found.add((int(y), MONTHS[mon.lower()], int(d)))
+    for y, mon, d in re.findall(r"\b(20\d{2})\s+([A-Za-z]{3,9})\s+(\d{1,2})\b", text):  # « 2026 February 09 »
+        if mon.lower() in MONTHS:
+            found.add((int(y), MONTHS[mon.lower()], int(d)))
     for mon, d, y in re.findall(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(20\d{2})\b", text):
         if mon.lower() in MONTHS:
             found.add((int(y), MONTHS[mon.lower()], int(d)))
