@@ -11,18 +11,23 @@ Rapprochement des opérations bancaires de deux sociétés avec leurs factures e
 Les scripts se lancent depuis la racine, en module :
 
 ```
-python3 -m smartketing.report           # couverture Wise / Xero -> factures_manquantes_smartketing.csv (via export_missing)
-python3 -m smartketing.export_missing
+python3 -m smartketing.report           # couverture Wise / Xero
+python3 -m smartketing.export_missing   # -> data/smartketing/factures_manquantes_smartketing.csv
 python3 -m bumpslab.qonto_snapshot      # photographie Qonto (lecture seule)
-python3 -m bumpslab.report              # couverture Qonto -> factures_manquantes_bumpslab.csv
+python3 -m bumpslab.report              # couverture Qonto -> data/bumpslab/factures_manquantes_bumpslab.csv
 ```
 
 ## Données
 
 Rien n'est versionné (voir `.gitignore`) :
 
-- `data/smartketing/` : `wise/` (exports « transaction history »), `xero/` (photos de Xero), `work/` (calculs et journaux), `invoices/` (pièces).
-- `data/bumpslab/` : `qonto/` (photos de Qonto), `work/`, `invoices/`.
+- `data/smartketing/`
+  - `depot/` : dossiers où déposer les pièces à joindre (`thibault manquant/`, `manquant hugo/`) ; ce qui est joint part dans leur `archive/`
+  - `comptabilite/` : documents comptables (bulletins de paie, déclarations et factures de vente 24-25, états financiers, freelances)
+  - `wise/` : exports Wise (« transaction history » et pièces exportées)
+  - `xero/` (photos de Xero), `work/` (calculs et journaux), `invoices/` (pièces jointes, rangées par opération)
+  - `factures_manquantes_smartketing.csv`
+- `data/bumpslab/` : `qonto/` (photos de Qonto), `work/`, `invoices/`, `factures_manquantes_bumpslab.csv`
 - `.env` : `XERO_CLIENT_ID`, `XERO_CLIENT_SECRET`, `WISE_API_KEY` et `QONTO_API_KEY`. Pour Qonto, la clé secrète seule ; l'identifiant de l'organisation est dans `bumpslab/__init__.py`.
 
 ## Règles

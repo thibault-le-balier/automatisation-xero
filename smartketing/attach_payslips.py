@@ -21,8 +21,8 @@ from smartketing import xero_api as x
 from commun import ROOT
 from smartketing import DATA
 WORK = DATA / "work"
-FOLDERS = [ROOT / "Wise with invoices pdf/thibault manquant/archive/salaires",
-           ROOT / "Wise with invoices pdf/01_Comptabilité/Payslips"]
+FOLDERS = [DATA / "depot" / "thibault manquant" / "archive" / "salaires",
+           DATA / "comptabilite" / "Payslips"]
 MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,
           "nov": 11, "dec": 12, "janv": 1, "fev": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6, "juillet": 7}
 

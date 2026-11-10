@@ -5,7 +5,7 @@
 
 Sorties :
   data/bumpslab/work/couverture.csv    une ligne par opération (justifiée ou non, et pourquoi)
-  factures_manquantes_bumpslab.csv     les pièces à fournir, lisible dans Excel (séparateur « ; », UTF-8 avec BOM)
+  data/bumpslab/factures_manquantes_bumpslab.csv  les pièces à fournir, lisible dans Excel (séparateur « ; », UTF-8 avec BOM)
 """
 import csv
 import json
@@ -14,7 +14,6 @@ from collections import Counter
 from datetime import date
 
 from bumpslab import DATA
-from commun import ROOT
 
 QONTO = DATA / "qonto"
 WORK = DATA / "work"
@@ -110,7 +109,7 @@ def main():
                      "Carte": o["carte"], "Type d'opération": o["type"], "Pièce à fournir": kind,
                      "Où la trouver / précisions": where, "Identifiant Qonto (ne pas modifier)": o["qonto_id"]})
     rows.sort(key=lambda r: (r["Qui fournit la pièce"] != "Thibault", r["Date du paiement"]))
-    path = ROOT / "factures_manquantes_bumpslab.csv"
+    path = DATA / "factures_manquantes_bumpslab.csv"
     with open(path, "w", newline="", encoding="utf-8-sig") as fh:  # BOM : accents corrects dans Excel
         wr = csv.writer(fh, delimiter=";")
         cols = list(rows[0]) if rows else []

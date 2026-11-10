@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Exporte les justificatifs manquants (Thibault et Hugo) dans une seule liste lisible dans Excel.
 
-    python3 -m smartketing.export_missing   ->  factures_manquantes_smartketing.csv
+    python3 -m smartketing.export_missing   ->  data/smartketing/factures_manquantes_smartketing.csv
 
 Format : séparateur « ; », UTF-8 avec BOM (accents corrects dans Excel), virgule décimale.
 Seulement les justificatifs à fournir, triés par type de pièce, avec la façon de les obtenir
@@ -11,7 +11,6 @@ import csv
 import re
 from datetime import date
 
-from commun import ROOT
 from smartketing import DATA
 WORK = DATA / "work"
 
@@ -111,7 +110,7 @@ def main():
     cols = list(rows[0]) if rows else []
     if not any(r["Montant facturé (devise d'origine)"] for r in rows):  # colonne vide : on l'enlève
         cols = [k for k in cols if k != "Montant facturé (devise d'origine)"]
-    out = ROOT / "factures_manquantes_smartketing.csv"
+    out = DATA / "factures_manquantes_smartketing.csv"
     with open(out, "w", newline="", encoding="utf-8-sig") as fh:  # BOM : accents corrects dans Excel
         wr = csv.writer(fh, delimiter=";")
         wr.writerow(cols)
