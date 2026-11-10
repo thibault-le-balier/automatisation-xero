@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Crée dans Xero les écritures du plan (non rapprochées) et joint les justificatifs.
 
-    python3 push.py                     # simulation : valide tout, n'écrit rien
-    python3 push.py --go --limit 5      # crée 5 écritures (+ leurs pièces jointes)
-    python3 push.py --go                # crée tout le reste
-    python3 push.py --go --attach-only  # joint les pièces aux opérations déjà rapprochées
-    python3 push.py --go --undo         # supprime les écritures AUTO26 encore non rapprochées
+    python3 -m smartketing.push                     # simulation : valide tout, n'écrit rien
+    python3 -m smartketing.push --go --limit 5      # crée 5 écritures (+ leurs pièces jointes)
+    python3 -m smartketing.push --go                # crée tout le reste
+    python3 -m smartketing.push --go --attach-only  # joint les pièces aux opérations déjà rapprochées
+    python3 -m smartketing.push --go --undo         # supprime les écritures AUTO26 encore non rapprochées
 
 Chaque écriture porte la référence « AUTO26 <id Wise> » : relancer le script ne crée jamais de doublon.
 Les écritures sont créées NON rapprochées : Xero les propose ensuite en face de la ligne du relevé (bouton OK).
@@ -18,10 +18,10 @@ import sys
 import urllib.parse
 from pathlib import Path
 
-import xero_api as x
+from smartketing import xero_api as x
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+from commun import ROOT
+from smartketing import DATA
 WORK = DATA / "work"
 TAG = "AUTO26"
 MAX_FILE = 10 * 1024 * 1024
@@ -159,7 +159,7 @@ def main():
               f"{p['account_code']:5s} {p['contact'][:25]:25s} {p['description'][:45]}")
     if not args.go:
         (WORK / "payloads.json").write_text(json.dumps([payload(p, banks, contacts) for p in todo], indent=1, ensure_ascii=False))
-        print("\nSimulation uniquement (rien n'a été écrit). Payloads : data/work/payloads.json. Relancer avec --go.")
+        print("\nSimulation uniquement (rien n'a été écrit). Payloads : data/smartketing/work/payloads.json. Relancer avec --go.")
         return
 
     created = 0
@@ -181,7 +181,7 @@ def main():
                 if f != "relevé Wise":
                     status = attach(t["BankTransactionID"], f)
                     log({"action": "attach", "wise_id": p["wise_id"], "id": t["BankTransactionID"], "file": f, "status": status})
-    print(f"{created} écritures créées. Journal : data/work/push_log.jsonl")
+    print(f"{created} écritures créées. Journal : data/smartketing/work/push_log.jsonl")
 
 
 if __name__ == "__main__":

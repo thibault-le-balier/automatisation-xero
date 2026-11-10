@@ -6,7 +6,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from xero_auth import get_access_token
+from smartketing.xero_auth import get_access_token
 
 BASE = "https://api.xero.com/api.xro/2.0"
 

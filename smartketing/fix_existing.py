@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Corrige les écritures déjà présentes dans Xero (simulation par défaut).
 
-    python3 fix_existing.py            # montre ce qui serait fait
-    python3 fix_existing.py --go       # applique
+    python3 -m smartketing.fix_existing            # montre ce qui serait fait
+    python3 -m smartketing.fix_existing --go       # applique
 
 1. Doublons : une écriture non rapprochée sans ligne Wise en face, alors qu'une écriture rapprochée
    identique (même compte, montant, date, contact proche) existe -> on copie ses pièces jointes sur
@@ -14,16 +14,14 @@ import argparse
 import csv
 import json
 import urllib.parse
-from pathlib import Path
 
 import re
 
-import xero_api as x
-from match import xero_date
-from plan import CAR, CATEGORY_DEFAULT, FOOD, TRAVEL
+from smartketing import xero_api as x
+from smartketing.match import xero_date
+from smartketing.plan import CAR, CATEGORY_DEFAULT, FOOD, TRAVEL
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+from smartketing import DATA
 WORK = DATA / "work"
 
 

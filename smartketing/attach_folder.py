@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Associe les factures d'un dossier (un sous-dossier par fournisseur) aux opérations Wise et les joint dans Xero.
 
-    python3 attach_folder.py "<dossier>"         # simulation : liste les correspondances
-    python3 attach_folder.py "<dossier>" --go    # joint les factures
+    python3 -m smartketing.attach_folder "<dossier>"         # simulation : liste les correspondances
+    python3 -m smartketing.attach_folder "<dossier>" --go    # joint les factures
 
 Correspondance = même fournisseur + même montant dans la devise de facturation + date à 4 jours près.
 On joint si l'opération n'a pas de pièce, ou seulement un e-mail sans montant (email_*.pdf généré par mcp_extract).
@@ -16,11 +16,12 @@ import urllib.parse
 from datetime import date
 from pathlib import Path
 
-import xero_api as x
-from index_folder import dates_in
+from smartketing import xero_api as x
+from commun.pieces import dates_in
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from commun import ROOT
+from smartketing import DATA
+WORK = DATA / "work"
 VENDORS = {"cursor": r"^cursor", "make": r"^make$", "openai": r"openai|chatgpt", "xero": r"^xero$"}
 MAX_GAP = 4
 

@@ -6,18 +6,17 @@ On la transforme en deux écritures qui collent au relevé, sans changer la char
   - la dépense existante passe au montant bloqué (même compte, contact, pièce jointe) ;
   - une recette du montant remboursé est créée sur le même compte de charge.
 
-    python3 split_preauth.py <wise_id> <montant_bloque> [date_remboursement AAAA-MM-JJ]          # simulation
-    python3 split_preauth.py <wise_id> <montant_bloque> [date_remboursement AAAA-MM-JJ] --go     # applique
+    python3 -m smartketing.split_preauth <wise_id> <montant_bloque> [date_remboursement AAAA-MM-JJ]          # simulation
+    python3 -m smartketing.split_preauth <wise_id> <montant_bloque> [date_remboursement AAAA-MM-JJ] --go     # applique
 """
 import csv
 import json
 import sys
-from pathlib import Path
 
-import xero_api as x
+from smartketing import xero_api as x
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from smartketing import DATA
+WORK = DATA / "work"
 TAG = "AUTO26"
 
 

@@ -2,8 +2,8 @@
 """Joint dans Xero les justificatifs d'un dossier dont le nom de fichier contient l'identifiant Wise
 (ex. 2026-01-25_1Password_20.85EUR_CARD_TRANSACTION-3383484493.pdf), puis les range dans <dossier>/archive/.
 
-    python3 attach_named.py "<dossier>"         # simulation : contrôle chaque pièce
-    python3 attach_named.py "<dossier>" --go    # joint dans Xero et archive les pièces jointes
+    python3 -m smartketing.attach_named "<dossier>"         # simulation : contrôle chaque pièce
+    python3 -m smartketing.attach_named "<dossier>" --go    # joint dans Xero et archive les pièces jointes
 
 Contrôles avant de joindre :
 - l'identifiant existe dans le relevé Wise et l'opération est dans Xero ;
@@ -23,14 +23,14 @@ import sys
 import urllib.parse
 from pathlib import Path
 
-import xero_api as x
+from smartketing import xero_api as x
 from datetime import date
 
-from index_folder import amount_variants, dates_in
-from mcp_extract import check
+from commun.pieces import amounts, check, dates_in
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from commun import ROOT
+from smartketing import DATA
+WORK = DATA / "work"
 ID = re.compile(r"((?:CARD_TRANSACTION|TRANSFER|BALANCE_TRANSACTION|DIRECT_DEBIT_TRANSACTION)-\d+)")
 MIME = {".pdf": "application/pdf", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
 
@@ -39,16 +39,8 @@ def text(p):
     return subprocess.run(["pdftotext", "-layout", "-q", str(p), "-"], capture_output=True, text=True).stdout
 
 
-def amounts(x):
-    """Variantes d'écriture du montant, y compris sans zéro final (« 32.4 euros »)."""
-    out = amount_variants(x)
-    if f"{x:.2f}".endswith("0"):
-        out |= {f"{x:.1f}", f"{x:.1f}".replace(".", ",")}
-    return out
-
-
 def to_jpeg(src, wise_id):
-    out_dir = ROOT / "data" / "invoices" / wise_id
+    out_dir = DATA / "invoices" / wise_id
     out_dir.mkdir(parents=True, exist_ok=True)
     dest = out_dir / (src.stem + ".jpg")
     subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "85", "-Z", "2400", str(src), "--out", str(dest)],

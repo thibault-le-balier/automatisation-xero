@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Exporte les justificatifs manquants en deux listes lisibles dans Excel (une pour Hugo, une pour Thibault).
+"""Exporte les justificatifs manquants (Thibault et Hugo) dans une seule liste lisible dans Excel.
 
-    python3 export_missing.py   ->  factures_manquantes_hugo.csv, factures_manquantes_thibault.csv
+    python3 -m smartketing.export_missing   ->  factures_manquantes_smartketing.csv
 
 Format : séparateur « ; », UTF-8 avec BOM (accents corrects dans Excel), virgule décimale.
 Seulement les justificatifs à fournir, triés par type de pièce, avec la façon de les obtenir
@@ -10,10 +10,10 @@ Seulement les justificatifs à fournir, triés par type de pièce, avec la faço
 import csv
 import re
 from datetime import date
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from commun import ROOT
+from smartketing import DATA
+WORK = DATA / "work"
 
 O1 = r"le balier thibault|charon hugo|revenue"
 PAPER = (r"restaurant|\bpub\b|auberge|brocoiserie|montagnard|cochon|yokocho|s[uü]rpriz|santa lyna|rehab|express de lyon"
@@ -39,15 +39,15 @@ HOW = [
                "ou appli Saily > Profil > Historique des achats."),
     (r"idf mobilit|navigo", "Achat du jour (12,75 € = sans doute 5 tickets à 2,55 €). Appli Île-de-France Mobilités > "
                             "Mon compte > Mes achats > justificatif d'achat."),
-    (r"grand somma", "Auberge du Grand-Sommartel, La Sagne (NE). Photo du ticket ; à défaut, demander un duplicata."),
+    (r"grand somma", "Auberge du Grand-Sommartel, La Sagne (NE). Photo du ticket, ou à défaut demander un duplicata."),
     (r"montagnard", "Les Montagnards, brasserie, rue de Montsalvens 4, 1636 Broc (lesmontagnards.ch). "
-                    "Photo du ticket ; à défaut, demander un duplicata."),
+                    "Photo du ticket, ou à défaut demander un duplicata."),
     (r"brocoiserie", "La Brocoiserie, boulangerie-café, rue de Montsalvens 3, 1636 Broc (en face des Montagnards). "
-                     "Photo du ticket ; à défaut, demander un duplicata."),
+                     "Photo du ticket, ou à défaut demander un duplicata."),
     (r"s[uü]rpriz", "Catégorie Wise « Travel » : sans doute un repas en déplacement. Photo du ticket."),
     (r"totalenergies|tamoil|shell", "Photo du ticket de la station."),
     (r"aprr|vinci|autoroute", "Photo du ticket de la borne de péage."),
-    (PAPER, "Photo du ticket ; à défaut, demander un duplicata au restaurant."),
+    (PAPER, "Photo du ticket, ou à défaut demander un duplicata au restaurant."),
     (r"sncf", "SNCF Connect : Mon compte > Mes voyages > justificatif, ou e-mail de confirmation."),
     (r"airbnb", "Airbnb : Voyages > détails de la réservation > Reçu."),
     (r"parkingpay", "Appli ou site Parkingpay : relevé de compte du mois."),
@@ -68,38 +68,60 @@ def how(vendor):
     return next((txt for rx, txt in HOW if re.search(rx, v)), "Espace client du fournisseur, ou e-mail de reçu.")
 
 
+# Nom lisible du fournisseur (le libellé Wise est souvent tronqué)
+NAMES = [
+    (r"lesmontagnards", "Les Montagnards (Broc)"), (r"brocoiserie", "La Brocoiserie (Broc)"),
+    (r"grand somma", "Auberge du Grand-Sommartel (La Sagne)"), (r"express de lyon", "L'Express de Lyon"),
+    (r"cochon volant", "Au Cochon Volant"), (r"idf mobilit|navigo", "Île-de-France Mobilités"),
+    (r"apple distribution", "Apple (App Store)"), (r"vinci", "VINCI Autoroutes"), (r"^le balier thibault$", "Salaire Thibault Le Balier"),
+]
+CATEGORIES = [
+    (r"totalenergies|tamoil|shell|^eni$", "Carburant"), (r"aprr|vinci|autoroute|bipandgo", "Péage"),
+    (r"parking", "Stationnement"), (r"sncf|idf mobilit|navigo|airbnb|h[oô]tel", "Déplacement"),
+    (r"le balier thibault|charon hugo|revenue", "Salaires et charges"), (PAPER, "Repas"),
+    (r"google ads|facebook|meta|linkedin", "Publicité"), (r"apple distribution", "Recette App Store"),
+]
+
+
+def pick(table, vendor, default):
+    v = vendor.lower()
+    return next((val for rx, val in table if re.search(rx, v)), default)
+
+
 def fr(x):
     return f"{float(x):,.2f}".replace(",", " ").replace(".", ",")
 
 
 def main():
     lines = {r["wise_id"]: r for r in csv.DictReader(open(WORK / "wise_lines.csv")) if r["line"] == "main"}
-    cov = list(csv.DictReader(open(WORK / "couverture.csv")))
-    cols = ["Type de justificatif", "Date", "Fournisseur", "Montant débité", "Devise",
-            "Montant facturé (devise d'origine)", "Compte Wise", "Comment l'obtenir", "Identifiant (ne pas modifier)"]
-    o1 = lambda c: bool(re.search(O1, c["contrepartie"].lower()))  # pièces d'O1 : toujours chez Thibault
-    hugo = lambda c: "Hugo" in c["carte_de"] and not o1(c)
-    for who, test in (("hugo", hugo), ("thibault", lambda c: not hugo(c))):
-        todo = []
-        for c in filter(test, cov):
-            w = lines[c["wise_id"]]
-            d = date.fromisoformat(c["date"])
-            orig = f"{fr(w['orig_amount'])} {w['orig_currency']}" if w["orig_currency"] and w["orig_currency"] != w["currency"] else ""
-            row = [d, c["contrepartie"].replace("TransferWise", "Wise"), fr(c["montant"]), c["devise"], orig,
-                   c["compte"].replace("Compte ", "")]
-            if c["etat"] == "manquant":
-                todo.append([kind(c["contrepartie"])] + row + [how(c["contrepartie"]), c["wise_id"]])
-        todo.sort(key=lambda r: (TYPES.index(r[0]), r[1]))
-        out = ROOT / f"factures_manquantes_{who}.csv"
-        with open(out, "w", newline="", encoding="utf-8-sig") as fh:  # BOM : accents corrects dans Excel
-            wr = csv.writer(fh, delimiter=";")
-            wr.writerow(cols)
-            wr.writerows([r[0], f"{r[1]:%d/%m/%Y}"] + r[2:] for r in todo)
-        (ROOT / f"factures_manquantes_{who}.xlsx").unlink(missing_ok=True)
-        total = {}
-        for r in todo:
-            total[r[4]] = total.get(r[4], 0) + float(r[3].replace(" ", "").replace(",", "."))
-        print(f"{out.name} : {len(todo)} lignes ({', '.join(f'{fr(v)} {k}' for k, v in total.items())})")
+    missing = [c for c in csv.DictReader(open(WORK / "couverture.csv")) if c["etat"] == "manquant"]
+    rows = []
+    for c in missing:
+        w, v = lines[c["wise_id"]], c["contrepartie"]
+        who = "Hugo" if "Hugo" in c["carte_de"] and not re.search(O1, v.lower()) else "Thibault"  # pièces d'O1 : Thibault
+        orig = f"{fr(w['orig_amount'])} {w['orig_currency']}" if w["orig_currency"] and w["orig_currency"] != w["currency"] else ""
+        rows.append({"Qui fournit la pièce": who, "Date du paiement": date.fromisoformat(c["date"]),
+                     "Fournisseur": pick(NAMES, v, v.strip()), "Libellé sur le relevé Wise": v.strip(),
+                     "Montant payé": fr(c["montant"]), "Devise": c["devise"], "Montant facturé (devise d'origine)": orig,
+                     "Compte Wise": c["compte"].replace("Compte ", ""), "Catégorie": pick(CATEGORIES, v, "Logiciels et services"),
+                     "Pièce à fournir": kind(v), "Où la trouver / précisions": how(v) + (
+                         f" Attention : {c['detail']}." if "supprimer dans Xero" in c["detail"] else ""),
+                     "Identifiant Wise (ne pas modifier)": c["wise_id"]})
+    rows.sort(key=lambda r: (r["Qui fournit la pièce"] != "Thibault", r["Date du paiement"]))
+    cols = list(rows[0]) if rows else []
+    if not any(r["Montant facturé (devise d'origine)"] for r in rows):  # colonne vide : on l'enlève
+        cols = [k for k in cols if k != "Montant facturé (devise d'origine)"]
+    out = ROOT / "factures_manquantes_smartketing.csv"
+    with open(out, "w", newline="", encoding="utf-8-sig") as fh:  # BOM : accents corrects dans Excel
+        wr = csv.writer(fh, delimiter=";")
+        wr.writerow(cols)
+        for r in rows:
+            wr.writerow([f"{r[k]:%d/%m/%Y}" if k == "Date du paiement" else r[k] for k in cols])
+    total = {}
+    for r in rows:
+        k = (r["Qui fournit la pièce"], r["Devise"])
+        total[k] = total.get(k, 0) + float(r["Montant payé"].replace(" ", "").replace(",", "."))
+    print(f"{out.name} : {len(rows)} lignes ; " + ", ".join(f"{w} {fr(v)} {d}" for (w, d), v in sorted(total.items())))
 
 
 if __name__ == "__main__":

@@ -7,18 +7,16 @@ Trois cas, sans effet sur la charge nette :
   - paiement carte annulé ou remboursé (absent de l'export Wise) : une dépense + une recette du même montant ;
   - frais Wise oubliés (appariés à tort à un paiement Railway du même montant).
 
-    python3 fix_lines.py         # simulation
-    python3 fix_lines.py --go    # applique (sans doublon : chaque écriture a sa référence AUTO26 ... )
+    python3 -m smartketing.fix_lines         # simulation
+    python3 -m smartketing.fix_lines --go    # applique (sans doublon : chaque écriture a sa référence AUTO26 ... )
 """
 import json
 import sys
-from pathlib import Path
 
-import split_preauth
-import xero_api as x
+from smartketing import split_preauth
+from smartketing import xero_api as x
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+from smartketing import DATA
 
 SPLITS = [  # (id Wise de la dépense nette, montant bloqué, date du remboursement)
     ("CARD_TRANSACTION-3567799019", 150.00, "2026-03-17"),  # Tamoil Lutry, CHF : -150,00 / +93,35

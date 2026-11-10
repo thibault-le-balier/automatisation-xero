@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """Télécharge (lecture seule) les pièces jointes des brouillons de factures Xero appariés aux lignes Wise.
 
-Entrée : data/work/drafts_map.json (wise_id -> invoice_id)
-Sortie : data/invoices/<wise_id>/<fichier> + data/work/docs_drafts.json
+Entrée : data/smartketing/work/drafts_map.json (wise_id -> invoice_id)
+Sortie : data/smartketing/invoices/<wise_id>/<fichier> + data/smartketing/work/docs_drafts.json
 """
 import json
 import re
-from pathlib import Path
 
-import xero_api as x
+from smartketing import xero_api as x
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
-INVOICES = ROOT / "data" / "invoices"
+from commun import ROOT
+from smartketing import DATA
+WORK = DATA / "work"
+INVOICES = DATA / "invoices"
 
 
 def safe(name):

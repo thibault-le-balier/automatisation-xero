@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Connexion OAuth2 à Xero pour SMARTKETING LIMITED. Ce script ne fait que lire.
 
-    python3 xero_auth.py          # ouvre le navigateur, enregistre les jetons, teste la connexion
-    python3 xero_auth.py --test   # réutilise les jetons enregistrés (rafraîchis si besoin)
+    python3 -m smartketing.xero_auth          # ouvre le navigateur, enregistre les jetons, teste la connexion
+    python3 -m smartketing.xero_auth --test   # réutilise les jetons enregistrés (rafraîchis si besoin)
 
 Les autres scripts réutilisent get_access_token() pour appeler l'API.
 """
@@ -16,9 +16,8 @@ import urllib.parse
 import urllib.request
 import webbrowser
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+from commun import ROOT, load_env
 TOKENS = ROOT / ".xero_tokens.json"
 PORT = 8765
 REDIRECT_URI = f"http://localhost:{PORT}/callback"
@@ -36,16 +35,6 @@ SCOPES = " ".join([
 AUTHORIZE_URL = "https://login.xero.com/identity/connect/authorize"
 TOKEN_URL = "https://identity.xero.com/connect/token"
 API = "https://api.xero.com"
-
-
-def load_env():
-    env = {}
-    for line in (ROOT / ".env").read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, value = line.split("=", 1)
-            env[key.strip()] = value.strip().strip("\"'")
-    return env
 
 
 def http(method, url, headers=None, data=None):

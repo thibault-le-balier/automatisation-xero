@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Télécharge les justificatifs trouvés dans Gmail et Drive (lecture seule).
 
-    python3 google_fetch.py        # 1re fois : ouvre le navigateur (Gmail + Drive en lecture seule)
+    python3 -m smartketing.google_fetch        # 1re fois : ouvre le navigateur (Gmail + Drive en lecture seule)
 
-Entrée : data/work/found/*.json (résultats vérifiés de la recherche)
-Sortie : data/invoices/<wise_id>/<fichier> et data/work/docs_google.json
+Entrée : data/smartketing/work/found/*.json (résultats vérifiés de la recherche)
+Sortie : data/smartketing/invoices/<wise_id>/<fichier> et data/smartketing/work/docs_google.json
 Prérequis dans .env : GOOGLE_CLIENT_ID et GOOGLE_CLIENT_SECRET (client OAuth « Application de bureau »).
 """
 import base64
@@ -19,14 +19,14 @@ import urllib.parse
 import urllib.request
 import webbrowser
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from pathlib import Path
 
-from xero_auth import load_env
+from commun import load_env
 
-ROOT = Path(__file__).resolve().parent
+from commun import ROOT
+from smartketing import DATA
 TOKENS = ROOT / ".google_tokens.json"
-WORK = ROOT / "data" / "work"
-INVOICES = ROOT / "data" / "invoices"
+WORK = DATA / "work"
+INVOICES = DATA / "invoices"
 PORT = 8766
 REDIRECT_URI = f"http://127.0.0.1:{PORT}/"
 SCOPES = "https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/drive.readonly"

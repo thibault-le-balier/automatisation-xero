@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Photographie Xero (lecture seule) : écrit data/xero/*.json pour l'analyse et l'anti-doublon."""
+"""Photographie Xero (lecture seule) : écrit data/smartketing/xero/*.json pour l'analyse et l'anti-doublon."""
 import json
-from pathlib import Path
+from smartketing import DATA
+from smartketing import xero_api as x
 
-import xero_api as x
-
-OUT = Path(__file__).resolve().parent / "data" / "xero"
+OUT = DATA / "xero"
 SINCE = "DateTime(2026,1,1)"
 BILLS_SINCE = "DateTime(2025,7,1)"  # bills 2025 payées en 2026
 

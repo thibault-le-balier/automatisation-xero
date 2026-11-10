@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
 """Rapport de couverture des justificatifs 2026 et listes de pièces manquantes.
 
-Sorties : data/work/couverture.csv (une ligne par opération Wise) et data/work/manquants_<qui>.csv
+Sorties : data/smartketing/work/couverture.csv (une ligne par opération Wise) et data/smartketing/work/manquants_<qui>.csv
 """
 import csv
 import json
 from collections import Counter, defaultdict
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from smartketing import DATA
+WORK = DATA / "work"
+
+
+# Pièces jointes dans Xero qui ne correspondent pas à l'opération (Xero ne permet pas de les retirer par l'API) :
+# l'opération reste à justifier, et la pièce est à supprimer à la main dans Xero.
+WRONG_ATTACHMENT = {
+    "CARD_TRANSACTION-3817083361": "la photo jointe est le ticket du parking de Montbenon (20/05, carte de Thibault), "
+                                   "déjà joint à la ligne APCOA Parking : la supprimer dans Xero",
+}
 
 
 def load(path, default):
@@ -37,7 +44,9 @@ def main():
     out = []
     for r in rows:
         f = found.get(r["wise_id"], {})
-        if r["xero_has_attachment"] == "True":
+        if r["wise_id"] in WRONG_ATTACHMENT:
+            etat, detail = "manquant", WRONG_ATTACHMENT[r["wise_id"]]
+        elif r["xero_has_attachment"] == "True":
             etat, detail = "déjà joint dans Xero", ""
         elif r["kind"] == "BALANCE_CASHBACK":
             etat, detail = "sans facture (relevé Wise)", "cashback Wise"
@@ -83,7 +92,7 @@ def main():
             w.writeheader()
             for o in sorted(items, key=lambda o: (o["contrepartie"], o["date"])):
                 w.writerow({k: o[k] for k in w.fieldnames})
-        print(f"  manquants carte {who} : {len(items)}  -> data/work/manquants_{who}.csv")
+        print(f"  manquants carte {who} : {len(items)}  -> data/smartketing/work/manquants_{who}.csv")
     other = Counter(o["facture_a"][:30] for o in out if o["facture_a"] and "SMARTKETING" not in o["facture_a"].upper())
     if other:
         print("  factures NON adressées à Smartketing :", dict(other))

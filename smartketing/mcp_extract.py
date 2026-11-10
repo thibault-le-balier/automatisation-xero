@@ -1,81 +1,30 @@
 #!/usr/bin/env python3
-"""Transforme un résultat des connecteurs Gmail / Drive en justificatif dans data/invoices/<wise_id>/.
+"""Transforme un résultat des connecteurs Gmail / Drive en justificatif dans data/smartketing/invoices/<wise_id>/.
 
-    python3 mcp_extract.py gmail    <resultat_get_message_RAW.json> <wise_id> <nom_piece | --eml>
-    python3 mcp_extract.py gmailraw <fichier_texte_base64url>       <wise_id> <nom_piece | --eml>
-    python3 mcp_extract.py drive    <resultat_download_file_content.json> <wise_id>
-    python3 mcp_extract.py b64      <fichier_texte_base64>          <wise_id> <nom_fichier>
-    python3 mcp_extract.py text     <fichier_texte>                 <wise_id> <nom_de_base>
+    python3 -m smartketing.mcp_extract gmail    <resultat_get_message_RAW.json> <wise_id> <nom_piece | --eml>
+    python3 -m smartketing.mcp_extract gmailraw <fichier_texte_base64url>       <wise_id> <nom_piece | --eml>
+    python3 -m smartketing.mcp_extract drive    <resultat_download_file_content.json> <wise_id>
+    python3 -m smartketing.mcp_extract b64      <fichier_texte_base64>          <wise_id> <nom_fichier>
+    python3 -m smartketing.mcp_extract text     <fichier_texte>                 <wise_id> <nom_de_base>
 
 Les gros résultats des connecteurs sont enregistrés par Claude Code dans un fichier JSON : on le décode ici.
 --eml (ou « text ») : le corps de l'e-mail fait foi ; on l'imprime en PDF avec Chrome, sans accès réseau.
-Chaque fichier produit est contrôlé (PDF complet, image lisible). Une ligne est ajoutée à data/work/docs_mcp.jsonl.
+Chaque fichier produit est contrôlé (PDF complet, image lisible). Une ligne est ajoutée à data/smartketing/work/docs_mcp.jsonl.
 """
-import base64
 import email
 import html
 import json
-import re
 import subprocess
 import sys
 import tempfile
 from email import policy
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+from commun import ROOT
+from smartketing import DATA
+from commun.pieces import b64decode, check, safe
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-LOG = ROOT / "data" / "work" / "docs_mcp.jsonl"
-
-
-def safe(name):
-    return re.sub(r"[^\w.\- #]", "_", name).strip() or "piece"
-
-
-def b64decode(text, urlsafe=False):
-    text = re.sub(r"\s+", "", text)
-    text += "=" * (-len(text) % 4)
-    return base64.urlsafe_b64decode(text) if urlsafe else base64.b64decode(text)
-
-
-def pdf_streams_problem(data):
-    """Décompresse chaque flux FlateDecode (après ASCII85 si présent) : une erreur = fichier abîmé."""
-    import zlib
-    for m in re.finditer(rb"<<(.{0,400}?)>>\s*stream\r?\n", data, re.S):
-        head = m.group(1)
-        if b"FlateDecode" not in head:
-            continue
-        end = data.find(b"endstream", m.end())
-        raw = data[m.end():end]
-        try:
-            if b"ASCII85Decode" in head:
-                raw = base64.a85decode(raw.strip().removeprefix(b"<~").removesuffix(b"~>"), adobe=False, ignorechars=b" \t\r\n")
-            o = zlib.decompressobj()
-            o.decompress(raw)
-            if not o.eof:
-                return "PDF tronqué (flux incomplet)"
-        except (zlib.error, ValueError):
-            return "PDF corrompu (flux illisible)"
-    return None
-
-
-def check(path):
-    """Renvoie None si le fichier est sain, sinon la raison."""
-    data = path.read_bytes()
-    if not data:
-        return "fichier vide"
-    if path.suffix.lower() == ".pdf" or data[:5] == b"%PDF-":
-        if data[:5] != b"%PDF-" or b"%%EOF" not in data[-2048:]:
-            return "PDF tronqué"
-        m = re.findall(rb"startxref\s+(\d+)", data[-2048:])
-        if m:
-            off = int(m[-1])
-            if not (data[off:off + 4] == b"xref" or re.match(rb"\d+\s+\d+\s+obj", data[off:off + 20])):
-                return "PDF corrompu (table xref)"
-        return pdf_streams_problem(data)
-    if path.suffix.lower() in (".png", ".jpg", ".jpeg", ".gif", ".heic"):
-        r = subprocess.run(["sips", "-g", "pixelWidth", str(path)], capture_output=True, text=True)
-        return None if "pixelWidth" in r.stdout else "image illisible"
-    return None
+LOG = DATA / "work" / "docs_mcp.jsonl"
 
 
 def to_pdf(page_html, dest):
@@ -127,7 +76,7 @@ def main():
         sys.exit(__doc__)
     mode, src, wise_id = sys.argv[1], Path(sys.argv[2]), sys.argv[3]
     arg = sys.argv[4] if len(sys.argv) > 4 else ""
-    out_dir = ROOT / "data" / "invoices" / wise_id
+    out_dir = DATA / "invoices" / wise_id
     out_dir.mkdir(parents=True, exist_ok=True)
     try:
         if mode == "gmail":

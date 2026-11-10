@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Apparie chaque mouvement Wise (ligne principale + ligne de frais) avec les opérations Xero 2026.
 
-Entrées : data/wise/*.csv (export « transaction history ») et data/xero/*.json (xero_snapshot.py).
-Sortie  : data/work/wise_lines.csv, une ligne par mouvement tel qu'il arrive dans le flux bancaire Xero.
+Entrées : data/smartketing/wise/*.csv (export « transaction history ») et data/smartketing/xero/*.json (xero_snapshot.py).
+Sortie  : data/smartketing/work/wise_lines.csv, une ligne par mouvement tel qu'il arrive dans le flux bancaire Xero.
 
 Statuts :
   RAPPROCHE   déjà rapproché dans Xero
@@ -13,10 +13,8 @@ import csv
 import datetime as dt
 import json
 import re
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+from smartketing import DATA
 OUT = DATA / "work"
 ACCOUNT_BY_CCY = {"CHF": "Compte CHF", "EUR": "Compte EURO"}
 DATE_WINDOW = 7  # jours d'écart toléré entre Wise et Xero

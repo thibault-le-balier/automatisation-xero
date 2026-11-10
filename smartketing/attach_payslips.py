@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Joint les bulletins de paie aux virements de salaire et aux paiements PAYE de Revenue.
 
-    python3 attach_payslips.py          # simulation
-    python3 attach_payslips.py --go     # joint dans Xero
+    python3 -m smartketing.attach_payslips          # simulation
+    python3 -m smartketing.attach_payslips --go     # joint dans Xero
 
 - Virement de salaire : bulletin du même salarié, même net, payé à 10 jours près.
 - Paiement Revenue du mois M+1 : bulletins du mois M (tous les salariés), seulement si la somme
@@ -15,12 +15,12 @@ import subprocess
 import sys
 import urllib.parse
 from datetime import date
-from pathlib import Path
 
-import xero_api as x
+from smartketing import xero_api as x
 
-ROOT = Path(__file__).resolve().parent
-WORK = ROOT / "data" / "work"
+from commun import ROOT
+from smartketing import DATA
+WORK = DATA / "work"
 FOLDERS = [ROOT / "Wise with invoices pdf/thibault manquant/archive/salaires",
            ROOT / "Wise with invoices pdf/01_Comptabilité/Payslips"]
 MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10,

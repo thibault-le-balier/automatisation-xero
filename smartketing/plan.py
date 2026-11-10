@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Construit le plan de saisie (data/work/plan.csv) et le plan des pièces jointes (data/work/attach_plan.csv).
+"""Construit le plan de saisie (data/smartketing/work/plan.csv) et le plan des pièces jointes (data/smartketing/work/attach_plan.csv).
 
 Codage, par ordre de priorité :
   1. règles explicites (RULES) : salaires, Revenue, frais Wise, cashback…
@@ -11,10 +11,8 @@ import csv
 import json
 import re
 from collections import Counter, defaultdict
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+from smartketing import DATA
 WORK = DATA / "work"
 TAG = "AUTO26"
 
